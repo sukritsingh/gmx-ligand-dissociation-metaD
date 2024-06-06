@@ -5,7 +5,7 @@ These are input files for running a sample simulation for running metadynamics f
 
 These will hopefully serve as a reference for any inspiration one should need for collective variables though! 
 
-If you do use these files, or find them helpful, please cite the following paper:
+If you do use these files, or find them helpful, please cite the following paper:\
 [Xianqiang Sun, Sukrit Singh, Kendall J Blumer, Gregory R Bowman (2018) Simulation of spontaneous G protein activation reveals a new intermediate driving GDP unbinding eLife 7:e38465.](https://doi.org/10.7554/eLife.38465)
 
 Bibtex:
