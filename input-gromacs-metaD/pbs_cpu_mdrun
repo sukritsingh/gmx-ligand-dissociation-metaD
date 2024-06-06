@@ -1,0 +1,13 @@
+#!/bin/bash
+#$ -N plumedRun2
+#$ -cwd
+#$ -o run.out
+#$ -e run.err 
+#$ -l h_rt=500:00:00 
+#$ -V
+#$ -pe smp 24
+#$ -q all.q
+
+export OMP_NUM_THREADS=24
+/home/xianqiangsun/program/gromacs-5.1/gromacs/bin/gmx_mpi grompp -f npt.mdp -c protEquil.gro -p topol.top -o test2 -n index.ndx -maxwarn 1
+/home/xianqiangsun/program/gromacs-5.1/gromacs/bin/gmx_mpi mdrun -nice 4 -deffnm test2 -ntomp 24 -plumed plumed.dat -pin on

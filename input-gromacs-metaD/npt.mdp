@@ -1,0 +1,64 @@
+;title		= NVT equilibration for the system 
+;define		= -DPOSRES	; position restrain the protein
+
+; Run parameters
+integrator	= md		; leaprog integrator
+nsteps		= 50000000        ; 200 ns 
+dt       	= 0.004  	; 4 fs
+comm-mode       = linear        ; Remove center of mass translation
+nstcomm         = 5 
+; Output control
+nstxout		= 0        ; save coordinates every 100 ps
+nstvout		= 0		; save velocities every 200 ps
+nstenergy	= 2500		; save energies every 200 ps
+nstlog		= 2500		; update log file every 200 ps
+nstxout-compressed = 2500
+compressed-x-grps  = GDP_Protein 
+;nstxtcout       = 2500          ; save the coordinate in xtc format every 10 ps
+;xtc-grps        = Protein_GDP
+; Bond parameters
+continuation	= no		; first dynamics constraint_algorithm = lincs	; holonomic constraints 
+constraints	= all-bonds     ; all bonds (even heavy atom-H bonds) constrained, important to use this option when dt > 0.001 ps.
+lincs_iter	= 2		; accuracy of LINCS
+lincs_order	= 6	        ; also related to accuracy
+lincs-warnangle = 30
+
+; Neighborsearching
+cutoff-scheme   = Verlet
+ns_type		= grid		; search neighboring grid cels
+nstlist		= 10		; 40 fs
+rcoulomb	= 0.9		; short-range electrostatic cutoff (in nm)
+rcoulomb-switch = 0.86
+vdw-type        = cut-off
+rvdw		= 0.9		; short-range van der Waals cutoff (in nm)
+rvdw-switch     = 0.8
+
+; Electrostatics
+coulombtype	= pme    ; Particle Mesh Ewald for long-range electrostatics
+pme_order	= 4		; cubic interpolation
+fourierspacing	= 0.12		; grid spacing for FFT
+optimize_fft    = yes
+; Temperature coupling is onG
+tcoupl		= V-rescale	            ; modified Berendsen thermostat
+tc-grps		= System  	; three coupling groups - more accurate
+tau_t		= 0.1	        ; time constant, in ps
+ref_t		= 300 	        ; reference temperature, one for each group, in K
+
+; Pressure coupling is off
+pcoupl		= berendsen
+Pcoupltype      = isotropic
+tau_p           = 1
+compressibility = 4.5e-5
+ref_p           = 1.0
+refcoord-scaling= all
+
+; Periodic boundary conditions
+pbc	        = xyz	; 3-D PBC
+
+; Dispersion correction
+DispCorr	= EnerPres	; account for cut-off vdW scheme
+; Velocity generation
+gen_vel		= no		; assign velocities from Maxwell distribution
+gen_temp	= 300		; temperature for Maxwell distribution
+gen_seed	= -1		; generate a random seed
+ld_seed         = -1

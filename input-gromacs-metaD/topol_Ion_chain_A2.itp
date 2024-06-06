@@ -1,0 +1,33 @@
+;
+;	File 'topol_Ion_chain_A2.itp' was generated
+;	By user: sukrit (1000)
+;	On host: dronach
+;	At date: Tue Jun 13 11:33:36 2017
+
+;
+;	This is a include topology file
+;
+;	Created by:
+;	                 :-) GROMACS - gmx pdb2gmx, VERSION 5.1.4 (-:
+;	
+;	Executable:   /usr/local/gmx514/bin/gmx
+;	Data prefix:  /usr/local/gmx514
+;	Command line:
+;	  gmx pdb2gmx -f gq_1tnd_homologyModel_v2.pdb -water tip3p -ff select -vsite hydrogens
+;	Force field was read from current directory or a relative path - path added.
+;
+
+[ moleculetype ]
+; Name            nrexcl
+Ion_chain_A2        3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue 360 MG  rtp MG   q +2.0
+     1         MG    360     MG     MG      1          2     24.305   ; qtot 2
+
+; Include Position restraint file
+#ifdef POSRES
+#include "posre_Ion_chain_A2.itp"
+#endif
+

@@ -1,0 +1,51 @@
+;
+;	File 'topol.top' was generated
+;	By user: sukrit (1000)
+;	On host: dronach
+;	At date: Tue Jun 13 11:33:34 2017
+
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                 :-) GROMACS - gmx pdb2gmx, VERSION 5.1.4 (-:
+;	
+;	Executable:   /usr/local/gmx514/bin/gmx
+;	Data prefix:  /usr/local/gmx514
+;	Command line:
+;	  gmx pdb2gmx -f gq_1tnd_homologyModel_v2.pdb -water tip3p -ff select -vsite hydrogens
+;	Force field was read from current directory or a relative path - path added.
+;
+
+; Include forcefield parameters
+#include "./amber03_GDP_GTP_LIG_WUL.ff/forcefield.itp"
+
+; Include chain topologies
+#include "topol_Protein_chain_A.itp"
+#include "topol_Ion_chain_A2.itp"
+
+; Include water topology
+#include "./amber03_GDP_GTP_LIG_WUL.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "./amber03_GDP_GTP_LIG_WUL.ff/ions.itp"
+
+[ system ]
+; Name
+Protein in water
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_A     1
+Ion_chain_A2        1
+SOL         16220
+NA               50
+CL               50
+NA               8

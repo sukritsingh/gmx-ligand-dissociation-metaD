@@ -1,0 +1,2394 @@
+[ bondtypes ]
+; i    j  func       b0          kb
+  CT H0         1    0.10900   284512.0 ; 03GLY changed from 331 bsd on NMA nmodes; AA, SUGARS
+  C  C          1     0.1525   259408.0 ; new99
+  C  OS         1     0.1323   376560.0 ; new99
+  C  H4         1     0.1080   307105.6 ; new99
+  C  H5         1     0.1080   307105.6 ; new99
+  CA OH         1     0.1364   376560.0 ; new99
+  CM OS         1     0.1240   401664.0 ; new99
+  Cl CT         1     0.1766   194137.6 ; new99
+  Br CT         1     0.1944   133051.2 ; new99
+  I  CT         1     0.2166   123846.4 ; new99
+  F  CA         1     0.1359   323004.8 ; new99
+  Cl CA         1     0.1727   161502.4 ; new99
+  I  CA         1     0.2075   143092.8 ; new99
+  Br CA         1     0.1890   143929.6 ; new99
+  OW HW         1    0.09572   462750.4 ; P water
+  HW HW         1    0.15136   462750.4 ; P water
+  C  CA         1    0.14090   392459.2 ; 7,(1986),230; TYR
+  C  CB         1    0.14190   374049.6 ; 7,(1986),230; GUA
+  C  CM         1    0.14440   343088.0 ; 7,(1986),230; THY,URA
+  C  CT         1    0.15220   265265.6 ; 7,(1986),230; AA
+  C  N*         1    0.13830   354803.2 ; 7,(1986),230; CYT,URA
+  C  NA         1    0.13880   349782.4 ; 7,(1986),230; GUA.URA
+  C  NC         1    0.13580   382417.6 ; 7,(1986),230; CYT
+  C  O          1    0.12290   476976.0 ; 7,(1986),230; AA,CYT,GUA,THY,URA
+  C  O2         1    0.12500   548940.8 ; 7,(1986),230; GLU,ASP
+  C  OH         1    0.13640   376560.0 ; 7,(1986),230; TYR
+  CA CA         1    0.14000   392459.2 ; 7,(1986),230; BENZENE,PHE,TRP,TYR
+  CA CB         1    0.14040   392459.2 ; 7,(1986),230; ADE,TRP
+  CA CM         1    0.14330   357313.6 ; 7,(1986),230; CYT
+  CA CT         1    0.15100   265265.6 ; 7,(1986),230; PHE,TYR
+  CA HA         1    0.10800   307105.6 ; ged from 340. bsd on C6H6 nmodes; PHE,TRP,TYR
+  CA H4         1    0.10800   307105.6 ; ged from 340. bsd on C6H6 nmodes; no assigned
+  CA N2         1    0.13400   402500.8 ; 7,(1986),230; ARG,CYT,GUA
+  CA NA         1    0.13810   357313.6 ; 7,(1986),230; GUA
+  CA NC         1    0.13390   404174.4 ; 7,(1986),230; ADE,CYT,GUA
+  CB CB         1    0.13700   435136.0 ; 7,(1986),230; ADE,GUA
+  CB N*         1    0.13740   364844.8 ; 7,(1986),230; ADE,GUA
+  CB NB         1    0.13910   346435.2 ; 7,(1986),230; ADE,GUA
+  CB NC         1    0.13540   385764.8 ; 7,(1986),230; ADE,GUA
+  CK H5         1    0.10800   307105.6 ; ged from 340. bsd on C6H6 nmodes; ADE,GUA
+  CK N*         1    0.13710   368192.0 ; 7,(1986),230; ADE,GUA
+  CK NB         1    0.13040   442667.2 ; 7,(1986),230; ADE,GUA
+  CM CM         1    0.13500   459403.2 ; 7,(1986),230; CYT,THY,URA
+  CM CT         1    0.15100   265265.6 ; 7,(1986),230; THY
+  CM HA         1    0.10800   307105.6 ; ged from 340. bsd on C6H6 nmodes; CYT,URA
+  CM H4         1    0.10800   307105.6 ; ged from 340. bsd on C6H6 nmodes; CYT,URA
+  CM H5         1    0.10800   307105.6 ; ged from 340. bsd on C6H6 nmodes; not assigned
+  CM N*         1    0.13650   374886.4 ; 7,(1986),230; CYT,THY,URA
+  CQ H5         1    0.10800   307105.6 ; ged from 340. bsd on C6H6 nmodes; ADE
+  CQ NC         1    0.13240   420073.6 ; 7,(1986),230; ADE
+  CT CT         1    0.15260   259408.0 ; 7,(1986),230; AA, SUGARS
+  CT HC         1    0.10900   284512.0 ; ged from 331 bsd on NMA nmodes; AA, SUGARS
+  CT H1         1    0.10900   284512.0 ; ged from 331 bsd on NMA nmodes; AA, RIBOSE
+  CT H2         1    0.10900   284512.0 ; ged from 331 bsd on NMA nmodes; SUGARS
+  CT H3         1    0.10900   284512.0 ; ged from 331 bsd on NMA nmodes; not assigned
+  CT HP         1    0.10900   284512.0 ; nged from 331; AA-lysine, methyl ammonium cation
+  CT N*         1    0.14750   282001.6 ; 7,(1986),230; ADE,CYT,GUA,THY,URA
+  CT N2         1    0.14630   282001.6 ; 7,(1986),230; ARG
+  CT OH         1    0.14100   267776.0 ; 7,(1986),230; SUGARS
+  CT OS         1    0.14100   267776.0 ; 7,(1986),230; NUCLEIC ACIDS
+  H  N2         1    0.10100   363171.2 ; 7,(1986),230; ADE,CYT,GUA,ARG
+  H  N*         1    0.10100   363171.2 ; plain unmethylated bases ADE,CYT,GUA,ARG
+  H  NA         1    0.10100   363171.2 ; 7,(1986),230; GUA,URA,HIS
+  HO OH         1    0.09600   462750.4 ; 7,(1986),230; SUGARS,SER,TYR
+  HO OS         1    0.09600   462750.4 ; 7,(1986),230; NUCLEOTIDE ENDS
+  O2 P          1    0.14800   439320.0 ; 7,(1986),230; NA PHOSPHATES
+  OH P          1    0.16100   192464.0 ; 7,(1986),230; NA PHOSPHATES
+  OS P          1    0.16100   192464.0 ; 7,(1986),230; NA PHOSPHATES
+  C* HC         1    0.10800   307105.6 ; ged from 340. bsd on C6H6 nmodes, not needed AA
+  C  N          1    0.13350   410032.0 ; 7,(1986),230; AA
+  C* CB         1    0.14590   324678.4 ; 7,(1986),230; TRP
+  C* CT         1    0.14950   265265.6 ; 7,(1986),230; TRP
+  C* CW         1    0.13520   456892.8 ; 7,(1986),230; TRP
+  CA CN         1    0.14000   392459.2 ; 7,(1986),230; TRP
+  CB CN         1    0.14190   374049.6 ; 7,(1986),230; TRP
+  CC CT         1    0.15040   265265.6 ; 7,(1986),230; HIS
+  CC CV         1    0.13750   428441.6 ; 7,(1986),230; HIS(delta)
+  CC CW         1    0.13710   433462.4 ; 7,(1986),230; HIS(epsilon)
+  CC NA         1    0.13850   353129.6 ; 7,(1986),230; HIS
+  CC NB         1    0.13940   343088.0 ; 7,(1986),230; HIS
+  CN NA         1    0.13800   358150.4 ; 7,(1986),230; TRP
+  CR H5         1    0.10800   307105.6 ; ged from 340. bsd on C6H6 nmodes;HIS
+  CR NA         1    0.13430   399153.6 ; 7,(1986),230; HIS
+  CR NB         1    0.13350   408358.4 ; 7,(1986),230; HIS
+  CT N          1    0.14490   282001.6 ; 7,(1986),230; AA
+  CT N3         1    0.14710   307105.6 ; 7,(1986),230; LYS
+  CT S          1    0.18100   189953.6 ; ged from 222.0 based on dimethylS nmodes
+  CT SH         1    0.18100   198321.6 ; ged from 222.0 based on methanethiol nmodes
+  CV H4         1    0.10800   307105.6 ; ged from 340. bsd on C6H6 nmodes; HIS
+  CV NB         1    0.13940   343088.0 ; 7,(1986),230; HIS
+  CW H4         1    0.10800   307105.6 ; ged from 340. bsd on C6H6 nmodes;HIS(epsilon,+)
+  CW NA         1    0.13810   357313.6 ; 7,(1986),230; HIS,TRP
+  H  N          1    0.10100   363171.2 ; 7,(1986),230; AA
+  H  N3         1    0.10100   363171.2 ; 7,(1986),230; LYS    
+  HS SH         1    0.13360   229283.2 ; 7,(1986),230; CYS
+  S  S          1    0.20380   138908.8 ; 7,(1986),230; CYX   (SCHERAGA)
+  CT F          1    0.13800   307105.6 ; 13,(1992),963;CF4; R0=1.332 FOR CHF3
+
+
+
+[ constrainttypes ]
+; this section is implemented manually from bond & angle values
+
+; constraints for rigid CH3 groups
+ MCH3   CT      2    0.166426
+ MCH3   S       2    0.193875
+ MCH3   MCH3    2    0.092163
+ MCH3   os      2    0.166426
+ MCH3   c       2    0.158254                                                                                         
+ MCH3   c3      2    0.166426
+ MCH3   n       2    0.158254
+; constraints for rigid NH3 groups
+
+ MNH3   CT      2    0.158254
+ MNH3   MNH3    2    0.080229
+
+; angle-derived constraints for OH and SH groups in proteins
+; The constraint A-C is calculated from the angle A-B-C and bonds A-B, B-C.
+  c3    ho      2    0.194132
+  C     HO      2    0.195074
+  CA    HO      2    0.195074
+  CT    HO      2    0.194132
+  CT    HS      2    0.235935
+
+
+
+[ angletypes ]
+;  i    j    k  func       th0       cth
+H0  CT  H0           1   109.500    292.880 ; 03GLY
+H0  CT  N            1   109.500    418.400 ; 03GLY AA general  changed based on NMA nmodes
+C   CT  H0           1   109.500    418.400 ; 03GLY AA general  changed based on NMA nmodes
+HW  OW  HW           1   104.520    836.800 ; TIP3P water
+HW  HW  OW           1   127.740      0.000 ; (found in crystallographic water with 3 bonds)
+C   C   O            1   120.000    669.440 ; new99
+C   C   OH           1   120.000    669.440 ; new99
+CT  C   CT           1   117.000    527.184 ; new99
+CT  C   OS           1   115.000    669.440 ; new99
+O   C   OS           1   125.000    669.440 ; new99
+H4  C   C            1   120.000    418.400 ; new99
+H4  C   CM           1   115.000    418.400 ; new99
+H4  C   CT           1   115.000    418.400 ; new99
+H4  C   O            1   120.000    418.400 ; new99
+H4  C   OH           1   120.000    418.400 ; new99
+H5  C   N            1   120.000    418.400 ; new99
+H5  C   O            1   119.000    418.400 ; new99
+H5  C   OH           1   107.000    418.400 ; new99
+H5  C   OS           1   107.000    418.400 ; new99
+CA  CA  OH           1   120.000    585.760 ; new99
+CA  OH  HO           1   113.000    418.400 ; new99
+F   CA  CA           1   121.000    585.760 ; new99
+Cl  CA  CA           1   118.800    585.760 ; new99
+Br  CA  CA           1   118.800    585.760 ; new99
+I   CA  CA           1   118.800    585.760 ; new99
+CM  CM  OS           1   125.000    669.440 ; new99
+H4  CM  OS           1   113.000    418.400 ; new99
+HA  CM  HA           1   120.000    292.880 ; new99
+HA  CM  CT           1   120.000    418.400 ; new99
+H1  CT  CM           1   109.500    418.400 ; new99
+HC  CT  CM           1   109.500    418.400 ; new99
+C   CT  OS           1   109.500    502.080 ; new99
+CM  CT  CT           1   111.000    527.184 ; new99
+CM  CT  OS           1   109.500    418.400 ; new99
+CT  CT  CA           1   114.000    527.184 ; new99
+OS  CT  OS           1   101.000    502.080 ; new99
+F   CT  CT           1   109.000    418.400 ; new99
+F   CT  H2           1   109.500    418.400 ; new99
+Cl  CT  CT           1   108.500    418.400 ; new99
+Cl  CT  H1           1   108.500    418.400 ; new99
+Br  CT  CT           1   108.000    418.400 ; new99
+Br  CT  H1           1   106.500    418.400 ; new99
+I   CT  CT           1   106.000    418.400 ; new99
+CB  C   NA           1   111.300    585.760 ; NA
+CB  C   O            1   128.800    669.440 ; 
+CM  C   NA           1   114.100    585.760 ; 
+CM  C   O            1   125.300    669.440 ; 
+CT  C   O            1   120.400    669.440 ; 
+CT  C   O2           1   117.000    585.760 ; 
+CT  C   OH           1   110.000    669.440 ; new99
+N*  C   NA           1   115.400    585.760 ; 
+N*  C   NC           1   118.600    585.760 ; 
+N*  C   O            1   120.900    669.440 ; 
+NA  C   O            1   120.600    669.440 ; 
+NC  C   O            1   122.500    669.440 ; 
+CT  C   N            1   116.600    585.760 ; AA general
+N   C   O            1   122.900    669.440 ; AA general
+O   C   O            1   126.000    669.440 ; AA COO- terminal residues
+O2  C   O2           1   126.000    669.440 ; AA GLU            (SCH JPC 79,2379)
+O   C   OH           1   120.000    669.440 ; 
+CA  C   CA           1   120.000    527.184 ; changed from 85.0  bsd on C6H6 nmodes; AA tyr
+CA  C   OH           1   120.000    585.760 ; AA tyr
+C   CA  CA           1   120.000    527.184 ; changed from 85.0  bsd on C6H6 nmodes
+CA  CA  CA           1   120.000    527.184 ; changed from 85.0  bsd on C6H6 nmodes
+CA  CA  CB           1   120.000    527.184 ; changed from 85.0  bsd on C6H6 nmodes
+CA  CA  CT           1   120.000    585.760 ; 
+CA  CA  HA           1   120.000    418.400 ; new99
+CA  CA  H4           1   120.000    418.400 ; new99
+CB  CA  HA           1   120.000    418.400 ; new99
+CB  CA  H4           1   120.000    418.400 ; new99
+CB  CA  N2           1   123.500    585.760 ; 
+CB  CA  NC           1   117.300    585.760 ; 
+CM  CA  N2           1   120.100    585.760 ; 
+CM  CA  NC           1   121.500    585.760 ; 
+N2  CA  NA           1   116.000    585.760 ; 
+N2  CA  NC           1   119.300    585.760 ; 
+NA  CA  NC           1   123.300    585.760 ; 
+C   CA  HA           1   120.000    418.400 ; new99 tyr
+N2  CA  N2           1   120.000    585.760 ; AA arg
+CN  CA  HA           1   120.000    418.400 ; new99 trp
+CA  CA  CN           1   120.000    527.184 ; changed from 85.0  bsd on C6H6 nmodes; AA trp
+C   CB  CB           1   119.200    527.184 ; changed from 85.0  bsd on C6H6 nmodes; NA gua
+C   CB  NB           1   130.000    585.760 ; 
+CA  CB  CB           1   117.300    527.184 ; changed from 85.0  bsd on C6H6 nmodes; NA ade
+CA  CB  NB           1   132.400    585.760 ; 
+CB  CB  N*           1   106.200    585.760 ; 
+CB  CB  NB           1   110.400    585.760 ; 
+CB  CB  NC           1   127.700    585.760 ; 
+N*  CB  NC           1   126.200    585.760 ; 
+C*  CB  CA           1   134.900    527.184 ; changed from 85.0  bsd on C6H6 nmodes; AA trp
+C*  CB  CN           1   108.800    527.184 ; changed from 85.0  bsd on C6H6 nmodes; AA trp
+CA  CB  CN           1   116.200    527.184 ; changed from 85.0  bsd on C6H6 nmodes; AA trp
+H5  CK  N*           1   123.050    418.400 ; new99
+H5  CK  NB           1   123.050    418.400 ; new99
+N*  CK  NB           1   113.900    585.760 ; 
+C   CM  CM           1   120.700    527.184 ; changed from 85.0  bsd on C6H6 nmodes; NA thy
+C   CM  CT           1   119.700    585.760 ; 
+C   CM  HA           1   119.700    418.400 ; new99
+C   CM  H4           1   119.700    418.400 ; new99
+CA  CM  CM           1   117.000    527.184 ; changed from 85.0  bsd on C6H6 nmodes; NA cyt
+CA  CM  HA           1   123.300    418.400 ; new99
+CA  CM  H4           1   123.300    418.400 ; new99
+CM  CM  CT           1   119.700    585.760 ; 
+CM  CM  HA           1   119.700    418.400 ; new99
+CM  CM  H4           1   119.700    418.400 ; new99
+CM  CM  N*           1   121.200    585.760 ; 
+H4  CM  N*           1   119.100    418.400 ; new99
+H5  CQ  NC           1   115.450    418.400 ; new99
+NC  CQ  NC           1   129.100    585.760 ; 
+CM  CT  HC           1   109.500    418.400 ; changed based on NMA nmodes
+CT  CT  CT           1   109.500    334.720 ; 
+CT  CT  HC           1   109.500    418.400 ; changed based on NMA nmodes
+CT  CT  H1           1   109.500    418.400 ; changed based on NMA nmodes
+CT  CT  H2           1   109.500    418.400 ; changed based on NMA nmodes
+CT  CT  HP           1   109.500    418.400 ; changed based on NMA nmodes
+CT  CT  N*           1   109.500    418.400 ; 
+CT  CT  OH           1   109.500    418.400 ; 
+CT  CT  OS           1   109.500    418.400 ; 
+HC  CT  HC           1   109.500    292.880 ; 
+H1  CT  H1           1   109.500    292.880 ; 
+HP  CT  HP           1   109.500    292.880 ; AA lys, ch3nh4+
+H2  CT  N*           1   109.500    418.400 ; changed based on NMA nmodes
+H1  CT  N*           1   109.500    418.400 ; changed based on NMA nmodes
+H1  CT  OH           1   109.500    418.400 ; changed based on NMA nmodes 
+H1  CT  OS           1   109.500    418.400 ; changed based on NMA nmodes 
+H2  CT  OS           1   109.500    418.400 ; changed based on NMA nmodes
+N*  CT  OS           1   109.500    418.400 ; 
+H1  CT  N            1   109.500    418.400 ; AA general  changed based on NMA nmodes
+C   CT  H1           1   109.500    418.400 ; AA general  changed based on NMA nmodes
+C   CT  HP           1   109.500    418.400 ; AA zwitterion  changed based on NMA nmodes
+H1  CT  S            1   109.500    418.400 ; AA cys     changed based on NMA nmodes
+H1  CT  SH           1   109.500    418.400 ; AA cyx     changed based on NMA nmodes
+CT  CT  S            1   114.700    418.400 ; AA cyx            (SCHERAGA  JPC 79,1428)
+CT  CT  SH           1   108.600    418.400 ; AA cys
+H2  CT  H2           1   109.500    292.880 ; AA lys
+H1  CT  N2           1   109.500    418.400 ; AA arg     changed based on NMA nmodes
+HP  CT  N3           1   109.500    418.400 ; AA lys, ch3nh3+, changed based on NMA nmodes
+CA  CT  CT           1   114.000    527.184 ; AA phe tyr          (SCH JPC  79,2379)
+C   CT  HC           1   109.500    418.400 ; AA gln      changed based on NMA nmodes
+C   CT  N            1   110.100    527.184 ; AA general
+CT  CT  N2           1   111.200    669.440 ; AA arg             (JCP 76, 1439)
+CT  CT  N            1   109.700    669.440 ; AA ala, general    (JACS 94, 2657)
+C   CT  CT           1   111.100    527.184 ; AA general
+CA  CT  HC           1   109.500    418.400 ; AA tyr     changed based on NMA nmodes
+CT  CT  N3           1   111.200    669.440 ; AA lys             (JCP 76, 1439)
+CC  CT  CT           1   113.100    527.184 ; AA his
+CC  CT  HC           1   109.500    418.400 ; AA his     changed based on NMA nmodes
+C   CT  N3           1   111.200    669.440 ; AA amino terminal residues
+C*  CT  CT           1   115.600    527.184 ; AA trp
+C*  CT  HC           1   109.500    418.400 ; AA trp    changed based on NMA nmodes
+CT  CC  NA           1   120.000    585.760 ; AA his
+CT  CC  CV           1   120.000    585.760 ; AA his
+CT  CC  NB           1   120.000    585.760 ; AA his
+CV  CC  NA           1   120.000    585.760 ; AA his
+CW  CC  NA           1   120.000    585.760 ; AA his
+CW  CC  NB           1   120.000    585.760 ; AA his
+CT  CC  CW           1   120.000    585.760 ; AA his
+H5  CR  NA           1   120.000    418.400 ; new99 his
+H5  CR  NB           1   120.000    418.400 ; new99 his
+NA  CR  NA           1   120.000    585.760 ; AA his
+NA  CR  NB           1   120.000    585.760 ; AA his
+CC  CV  H4           1   120.000    418.400 ; new99 his
+CC  CV  NB           1   120.000    585.760 ; AA his
+H4  CV  NB           1   120.000    418.400 ; new99 his
+CC  CW  H4           1   120.000    418.400 ; new99 his
+CC  CW  NA           1   120.000    585.760 ; AA his
+H4  CW  NA           1   120.000    418.400 ; new99 his
+C*  CW  H4           1   120.000    418.400 ; new99 trp
+C*  CW  NA           1   108.700    585.760 ; AA trp
+CT  C*  CW           1   125.000    585.760 ; AA trp
+CB  C*  CT           1   128.600    585.760 ; AA trp
+CB  C*  CW           1   106.400    527.184 ; changed from 85.0  bsd on C6H6 nmodes; AA trp
+CA  CN  NA           1   132.800    585.760 ; AA trp
+CB  CN  NA           1   104.400    585.760 ; AA trp
+CA  CN  CB           1   122.700    527.184 ; changed from 85.0  bsd on C6H6 nmodes; AA trp
+C   N   CT           1   121.900    418.400 ; AA general
+C   N   H            1   120.000    418.400 ; new99 general, gln, asn,changed based on NMA nmodes
+CT  N   H            1   118.040    418.400 ; new99 general,     changed based on NMA nmodes
+CT  N   CT           1   118.000    418.400 ; AA pro             (DETAR JACS 99,1232)
+H   N   H            1   120.000    292.880 ; ade,cyt,gua,gln,asn     **
+C   N*  CM           1   121.600    585.760 ; 
+C   N*  CT           1   117.600    585.760 ; 
+C   N*  H            1   119.200    418.400 ; new99
+CB  N*  CK           1   105.400    585.760 ; 
+CB  N*  CT           1   125.800    585.760 ; 
+CB  N*  H            1   125.800    418.400 ; new99
+CK  N*  CT           1   128.800    585.760 ; 
+CK  N*  H            1   128.800    418.400 ; new99  for unmethylated n.a. bases,chngd bsd NMA nmodes
+CM  N*  CT           1   121.200    585.760 ; 
+CM  N*  H            1   121.200    418.400 ; new99  for unmethylated n.a. bases,chngd bsd NMA nmodes
+CA  N2  H            1   120.000    418.400 ; new99
+H   N2  H            1   120.000    292.880 ; 
+CT  N2  H            1   118.400    418.400 ; new99 arg
+CA  N2  CT           1   123.200    418.400 ; AA arg
+CT  N3  H            1   109.500    418.400 ; AA lys,     changed based on NMA nmodes
+CT  N3  CT           1   109.500    418.400 ; AA pro/nt
+H   N3  H            1   109.500    292.880 ; AA lys, AA(end)
+C   NA  C            1   126.400    585.760 ; 
+C   NA  CA           1   125.200    585.760 ; 
+C   NA  H            1   116.800    418.400 ; new99
+CA  NA  H            1   118.000    418.400 ; new99
+CC  NA  CR           1   120.000    585.760 ; AA his
+CC  NA  H            1   120.000    418.400 ; new99 his
+CR  NA  CW           1   120.000    585.760 ; AA his
+CR  NA  H            1   120.000    418.400 ; new99 his
+CW  NA  H            1   120.000    418.400 ; new99 his
+CN  NA  CW           1   111.600    585.760 ; AA trp
+CN  NA  H            1   123.100    418.400 ; new99 trp
+CB  NB  CK           1   103.800    585.760 ; 
+CC  NB  CR           1   117.000    585.760 ; AA his
+CR  NB  CV           1   117.000    585.760 ; AA his
+C   NC  CA           1   120.500    585.760 ; 
+CA  NC  CB           1   112.200    585.760 ; 
+CA  NC  CQ           1   118.600    585.760 ; 
+CB  NC  CQ           1   111.000    585.760 ; 
+C   OH  HO           1   113.000    418.400 ; new99
+CT  OH  HO           1   108.500    460.240 ; 
+HO  OH  P            1   108.500    376.560 ; 
+CT  OS  CT           1   109.500    502.080 ; 
+CT  OS  P            1   120.500    836.800 ; 
+P   OS  P            1   120.500    836.800 ; 
+O2  P   OH           1   108.230    376.560 ; 
+O2  P   O2           1   119.900   1171.520 ; 
+O2  P   OS           1   108.230    836.800 ; 
+OH  P   OS           1   102.600    376.560 ; 
+OS  P   OS           1   102.600    376.560 ; 
+CT  S   CT           1    98.900    518.816 ; AA met
+CT  S   S            1   103.700    569.024 ; AA cyx             (SCHERAGA  JPC 79,1428)
+CT  SH  HS           1    96.000    359.824 ; changed from 44.0 based on methanethiol nmodes
+HS  SH  HS           1    92.070    292.880 ; AA cys
+F   CT  F            1   109.100    644.336 ; JCC,13,(1992),963;
+F   CT  H1           1   109.500    418.400 ; new99
+N   C   N            1   120.000    585.760 ; Added for Urea (same as N2-CA-N2) - EJS
+
+[ dihedraltypes ]
+;i  j   k  l	 func      phase      kd      pn
+CA  CA  CA  OH       4      180.00     4.60240     2 	; new99
+H5  O   C   OH       4      180.00     4.60240     2 	; new99
+H5  O   C   OS       4      180.00     4.60240     2 	; new99
+CM  CT  CM  HA       4      180.00     4.60240     2 	; new99
+CA  CA  CA  Br       4      180.00     4.60240     2 	; new99
+CM  H4  C   O        4      180.00     4.60240     2 	; new99
+C   CT  N   H        4      180.00     4.60240     2 	; new99
+C   CT  N   O        4      180.00     4.60240     2    ; new99
+CB  CK  N*  CT       4      180.00     4.18400     2	; 
+CK  CB  N*  CT       4      180.00     4.18400     2    ;
+C   CM  N*  CT       4      180.00     4.18400     2	; dac guess, 9/94
+CT  N*  C   CM       4      180.00     4.18400     2    ; 
+CM  C   CM  CT       4      180.00     4.60240     2	; 
+CT  O   C   OH       4      180.00    43.93200     2	; 
+NA  CV  CC  CT       4      180.00     4.60240     2	; 
+NB  CW  CC  CT       4      180.00     4.60240     2	; 
+NA  CW  CC  CT       4      180.00     4.60240     2	; 
+CW  CB  C*  CT       4      180.00     4.60240     2	; 
+CA  CA  CA  CT       4      180.00     4.60240     2	; 
+C   CM  CM  CT       4      180.00     4.60240     2	; dac guess, 9/94
+NC  CM  CA  N2       4      180.00     4.60240     2	; dac guess, 9/94
+CB  NC  CA  N2       4      180.00     4.60240     2	; dac, 10/94
+NA  NC  CA  N2       4      180.00     4.60240     2	; dac, 10/94
+CA  CA  C   OH       4      180.00     4.60240     2	; 
+CT  CV  CC  NA       4      180.00     4.60240     2	; 
+CT  CW  CC  NB       4      180.00     4.60240     2	; 
+CT  CW  CC  NA       4      180.00     4.60240     2	; 
+CB  CT  C*  CW       4      180.00     4.60240     2	; 
+CM  N2  CA  NC       4      180.00     4.60240     2	; 
+CB  N2  CA  NC       4      180.00     4.60240     2	; 
+N2  NA  CA  NC       4      180.00     4.60240     2	; 
+N   N   C   O        4      180.00    43.93200     2	; urea
+X   O2  C   O2       4      180.00    43.93200     2	; JCC,7,(1986),230
+X   N2  CA  N2       4      180.00    43.93200     2	; JCC,7,(1986),230
+X   CT  N   CT       4      180.00     4.18400     2	; JCC,7,(1986),230
+X   X   C   O        4      180.00    43.93200     2	; JCC,7,(1986),230
+X   X   N   H        4      180.00     4.18400     2	; JCC,7,(1986),230
+X   X   N2  H        4      180.00     4.18400     2	; JCC,7,(1986),230
+X   X   NA  H        4      180.00     4.18400     2	; JCC,7,(1986),230
+X   X   CA  HA       4      180.00     4.60240     2	; bsd.on C6H6 nmodes
+X   X   CW  H4       4      180.00     4.60240     2	; 
+X   X   CR  H5       4      180.00     4.60240     2	; 
+X   X   CV  H4       4      180.00     4.60240     2	; 
+X   X   CQ  H5       4      180.00     4.60240     2	; 
+X   X   CK  H5       4      180.00     4.60240     2	; 
+X   X   CM  H4       4      180.00     4.60240     2	; 
+X   X   CM  HA       4      180.00     4.60240     2	; 
+X   X   CA  H4       4      180.00     4.60240     2	; bsd.on C6H6 nmodes 
+X   X   CA  H5       4      180.00     4.60240     2	; bsd.on C6H6 nmodes
+
+
+[ dihedraltypes ]
+;i   j   k   l	   func	
+ CT  CT  OS  CT    9       0.0      1.60247     3  ; 
+ CT  CT  OS  CT    9     180.0      0.41840     2  ; 
+ N   CT  C   N     9     180.0      2.86144     1  ; Amber03
+ N   CT  C   N     9     180.0      6.08228     2  ; Amber03
+ N   CT  C   N     9     180.0      1.93092     3  ; Amber03
+ C   N   CT  C     9       0.0      4.25053     1  ; Amber03
+ C   N   CT  C     9     180.0      1.44390     2  ; Amber03
+ C   N   CT  C     9       0.0      0.94517     3  ; Amber03
+ CT  CT  C   N     9     180.0      3.25683     1  ; Amber03
+ CT  CT  C   N     9     180.0      0.27489     2  ; Amber03
+ CT  CT  C   N     9       0.0      0.23430     3  ; Amber03
+ C   N   CT  CT    9     180.0      1.47988     1  ; Amber03
+ C   N   CT  CT    9     180.0      3.69698     2  ; Amber03
+ C   N   CT  CT    9     180.0      0.94977     3  ; Amber03
+ C   N   CT  H0    9       0.0      1.91418     1  ; Amber03 GLY
+ C   N   CT  H0    9     180.0      5.25427     2  ; Amber03 GLY
+ H0  CT  C   N     9     180.0      4.43797     1  ; Amber03 GLY
+ H0  CT  C   N     9       0.0      0.04602     2  ; Amber03 GLY
+ H   N   C   O     9     180.0     10.46000     2  ; JCC,7,(1986),230
+ H   N   C   O     9       0.0      8.36800     1  ; J.C.cistrans-NMA DE
+ CT  S   S   CT    9       0.0     14.64400     2  ; JCC,7,(1986),230
+ CT  S   S   CT    9       0.0      2.51040     3  ; JCC,7,(1986),230
+ OS  CT  CT  OS    9       0.0      0.60250     3  ; parm98, TC,PC,PAK
+ OS  CT  CT  OS    9       0.0      4.91620     2  ; Piotr et al.
+ OS  CT  CT  OH    9       0.0      0.60250     3  ; parm98, TC,PC,PAK
+ OS  CT  CT  OH    9       0.0      4.91620     2  ; parm98, TC,PC,PAK
+ OH  CT  CT  OH    9       0.0      0.60250     3  ; parm98, TC,PC,PAK
+ OH  CT  CT  OH    9       0.0      4.91620     2  ; parm98, TC,PC,PAK
+ OH  P   OS  CT    9       0.0      1.04600     3  ; JCC,7,(1986),230
+ OH  P   OS  CT    9       0.0      5.02080     2  ; gg&gt ene.631g*/mp2
+ OS  P   OS  CT    9       0.0      1.04600     3  ; JCC,7,(1986),230
+ OS  P   OS  CT    9       0.0      5.02080     2  ; gg&gt ene.631g*/mp2
+ OS  CT  N*  CK    9       0.0     10.46000     1  ; parm98, TC,PC,PAK
+ OS  CT  N*  CM    9       0.0     10.46000     1  ; parm98, TC,PC,PAK
+ H1  CT  C   O     9       0.0      3.34720     1  ; Junmei et al, 1999
+ H1  CT  C   O     9     180.0      0.33472     3  ; Junmei et al, 1999
+ HC  CT  C   O     9       0.0      3.34720     1  ; Junmei et al, 1999
+ HC  CT  C   O     9     180.0      0.33472     3  ; Junmei et al, 1999
+ HC  CT  CT  HC    9       0.0      0.62760     3  ; Junmei et al, 1999
+ HC  CT  CT  CT    9       0.0      0.66944     3  ; Junmei et al, 1999
+ HC  CT  CM  CM    9     180.0      1.58992     3  ; Junmei et al, 1999
+ HC  CT  CM  CM    9       0.0      4.81160     1  ; Junmei et al, 1999
+ HO  OH  CT  CT    9       0.0      0.66944     3  ; Junmei et al, 1999
+ HO  OH  CT  CT    9       0.0      1.04600     1  ; Junmei et al, 1999
+ HO  OH  C   O     9     180.0      9.62320     2  ; Junmei et al, 1999
+ HO  OH  C   O     9       0.0      7.94960     1  ; Junmei et al, 1999
+ CM  CM  C   O     9     180.0      9.10020     2  ; Junmei et al, 1999
+ CM  CM  C   O     9       0.0      1.25520     3  ; Junmei et al, 1999
+ CT  CM  CM  CT    9     180.0     27.82360     2  ; Junmei et al, 1999
+ CT  CM  CM  CT    9     180.0      7.94960     1  ; Junmei et al, 1999
+ CT  CT  CT  CT    9       0.0      0.75312     3  ; Junmei et al, 1999
+ CT  CT  CT  CT    9     180.0      1.04600     2  ; Junmei et al, 1999
+ CT  CT  CT  CT    9     180.0      0.83680     1  ; Junmei et al, 1999
+ CT  CT  OS  C     9       0.0      1.60247     3  ; Junmei et al, 1999
+ CT  CT  OS  C     9     180.0      3.34720     1  ; Junmei et al, 1999
+ CT  OS  CT  OS    9       0.0      0.41840     3  ; Junmei et al, 1999
+ CT  OS  CT  OS    9     180.0      3.55640     2  ; Junmei et al, 1999
+ CT  OS  CT  OS    9     180.0      5.64840     1  ; Junmei et al, 1999
+ O   C   OS  CT    9     180.0     11.29680     2  ; Junmei et al, 1999
+ O   C   OS  CT    9     180.0      5.85760     1  ; Junmei et al, 1999
+ F   CT  CT  F     9     180.0      5.02080     1  ; Junmei et al, 1999
+ Cl  CT  CT  Cl    9     180.0      1.88280     1  ; Junmei et al, 1999
+ Br  CT  CT  Br    9       0.0      0.00000     0  ; Junmei et al, 1999
+ H1  CT  CT  OS    9       0.0      1.04600     1  ; Junmei et al, 1999
+ H1  CT  CT  OH    9       0.0      1.04600     1  ; Junmei et al, 1999
+ H1  CT  CT  F     9       0.0      0.79496     1  ; Junmei et al, 1999
+ H1  CT  CT  Cl    9       0.0      1.04600     1  ; Junmei et al, 1999
+ H1  CT  CT  Br    9       0.0      2.30120     1  ; Junmei et al, 1999
+ HC  CT  CT  OS    9       0.0      1.04600     1  ; Junmei et al, 1999
+ HC  CT  CT  OH    9       0.0      1.04600     1  ; Junmei et al, 1999
+ HC  CT  CT  F     9       0.0      0.79496     1  ; Junmei et al, 1999
+ HC  CT  CT  Cl    9       0.0      1.04600     1  ; Junmei et al, 1999
+ HC  CT  CT  Br    9       0.0      2.30120     1  ; Junmei et al, 1999
+ CT  OS  CT  N*    9       0.0      1.60247     3  ; parm98.dat, TC,PC,PAK
+ CT  OS  CT  N*    9       0.0      2.71960     2  ; Piotr et al.
+ X   C   C   X     9     180.0     15.16700     2  ; Junmei et al, 1999
+ X   C   O   X     9     180.0     11.71520     2  ; Junmei et al, 1999
+ X   C   OS  X     9     180.0     11.29680     2  ; Junmei et al, 1999
+ X   CA  OH  X     9     180.0      3.76560     2  ; Junmei et al, 99
+ X   CM  OS  X     9     180.0      4.39320     2  ; Junmei et al, 1999
+ X   C   CA  X     9     180.0     15.16700     2  ; intrpol.bsd.on C6H6
+ X   C   CB  X     9     180.0     12.55200     2  ; intrpol.bsd.on C6H6
+ X   C   CM  X     9     180.0      9.10020     2  ; intrpol.bsd.on C6H6
+ X   C   N*  X     9     180.0      6.06680     2  ; JCC,7,(1986),230
+ X   C   NA  X     9     180.0      5.64840     2  ; JCC,7,(1986),230
+ X   C   NC  X     9     180.0     16.73600     2  ; JCC,7,(1986),230
+ X   C   OH  X     9     180.0      9.62320     2  ; Junmei et al, 1999
+ X   C   CT  X     9       0.0      0.00000     0  ; JCC,7,(1986),230
+ X   CA  CA  X     9     180.0     15.16700     2  ; intrpol.bsd.on C6H6
+ X   CA  CB  X     9     180.0     14.64400     2  ; intrpol.bsd.on C6H6
+ X   CA  CM  X     9     180.0     10.66920     2  ; intrpol.bsd.on C6H6
+ X   CA  CT  X     9       0.0      0.00000     0  ; JCC,7,(1986),230
+ X   CA  N2  X     9     180.0     10.04160     2  ; reinterpolated 93'
+ X   CA  NA  X     9     180.0      6.27600     2  ; JCC,7,(1986),230
+ X   CA  NC  X     9     180.0     20.08320     2  ; JCC,7,(1986),230
+ X   CB  CB  X     9     180.0     22.80280     2  ; intrpol.bsd.on C6H6
+ X   CB  N*  X     9     180.0      6.90360     2  ; JCC,7,(1986),230
+ X   CB  NB  X     9     180.0     10.66920     2  ; JCC,7,(1986),230
+ X   CB  NC  X     9     180.0     17.36360     2  ; JCC,7,(1986),230
+ X   CK  N*  X     9     180.0      7.11280     2  ; JCC,7,(1986),230
+ X   CK  NB  X     9     180.0     41.84000     2  ; JCC,7,(1986),230
+ X   CM  CM  X     9     180.0     27.82360     2  ; intrpol.bsd.on C6H6
+ X   CM  CT  X     9       0.0      0.00000     0  ; JCC,7,(1986),230
+ X   CM  N*  X     9     180.0      7.74040     2  ; JCC,7,(1986),230
+ X   CQ  NC  X     9     180.0     28.45120     2  ; JCC,7,(1986),230
+ X   CT  CT  X     9       0.0      0.65084     3  ; JCC,7,(1986),230
+ X   CT  N   X     9       0.0      0.00000     0  ; JCC,7,(1986),230
+ X   CT  N*  X     9       0.0      0.00000     0  ; JCC,7,(1986),230
+ X   CT  N2  X     9       0.0      0.00000     0  ; JCC,7,(1986),230
+ X   CT  OH  X     9       0.0      0.69733     3  ; JCC,7,(1986),230
+ X   CT  OS  X     9       0.0      1.60387     3  ; JCC,7,(1986),230
+ X   OH  P   X     9       0.0      1.04600     3  ; JCC,7,(1986),230
+ X   OS  P   X     9       0.0      1.04600     3  ; JCC,7,(1986),230
+ X   C   N   X     9     180.0     10.46000     2  ; AA,NMA
+ X   CT  N3  X     9       0.0      0.65084     3  ; JCC,7,(1986),230
+ X   CT  S   X     9       0.0      1.39467     3  ; JCC,7,(1986),230
+ X   CT  SH  X     9       0.0      1.04600     3  ; JCC,7,(1986),230
+ X   C*  CB  X     9     180.0      7.00820     2  ; intrpol.bsd.onC6H6aa
+ X   C*  CT  X     9       0.0      0.00000     0  ; JCC,7,(1986),230
+ X   C*  CW  X     9     180.0     27.30060     2  ; intrpol.bsd.on C6H6
+ X   CA  CN  X     9     180.0     15.16700     2  ; reinterpolated 93'
+ X   CB  CN  X     9     180.0     12.55200     2  ; reinterpolated 93'
+ X   CC  CT  X     9       0.0      0.00000     0  ; JCC,7,(1986),230
+ X   CC  CV  X     9     180.0     21.54760     2  ; intrpol.bsd.on C6H6
+ X   CC  CW  X     9     180.0     22.48900     2  ; intrpol.bsd.on C6H6
+ X   CC  NA  X     9     180.0      5.85760     2  ; JCC,7,(1986),230
+ X   CC  NB  X     9     180.0     10.04160     2  ; JCC,7,(1986),230
+ X   CN  NA  X     9     180.0      6.38060     2  ; reinterpolated 93'
+ X   CR  NA  X     9     180.0      9.72780     2  ; JCC,7,(1986),230
+ X   CR  NB  X     9     180.0     20.92000     2  ; JCC,7,(1986),230
+ X   CV  NB  X     9     180.0     10.04160     2  ; JCC,7,(1986),230
+ X   CW  NA  X     9     180.0      6.27600     2  ; JCC,7,(1986),230
+
+;prameters for the GDP
+#define    GDP_bond_O1B_PB        1.4800e-01   4.3932e+05
+#define    GDP_bond_PB_O2B        1.4800e-01   4.3932e+05
+#define    GDP_bond_PB_O3B        1.4800e-01   4.3932e+05
+#define    GDP_bond_PB_O3A        1.6100e-01   1.9246e+05
+#define    GDP_bond_O3A_PA        1.6100e-01   1.9246e+05
+#define    GDP_bond_PA_O1A        1.4800e-01   4.3932e+05
+#define    GDP_bond_PA_O2A        1.4800e-01   4.3932e+05
+#define    GDP_bond_PA_O5*        1.6100e-01   1.9246e+05
+#define    GDP_bond_O5*_C5*        1.4100e-01   2.6778e+05
+#define    GDP_bond_C5*_H50        1.0900e-01   2.8451e+05
+#define    GDP_bond_C5*_H51        1.0900e-01   2.8451e+05
+#define    GDP_bond_C5*_C4*        1.5260e-01   2.5941e+05
+#define    GDP_bond_C4*_H40        1.0900e-01   2.8451e+05
+#define    GDP_bond_C4*_O4*        1.4100e-01   2.6778e+05
+#define    GDP_bond_C4*_C3*        1.5260e-01   2.5941e+05
+#define    GDP_bond_O4*_C1*        1.4100e-01   2.6778e+05
+#define    GDP_bond_C1*_H10        1.0900e-01   2.8451e+05
+#define    GDP_bond_C1*_N9        1.4750e-01   2.8200e+05
+#define    GDP_bond_C1*_C2*        1.5260e-01   2.5941e+05
+#define    GDP_bond_N9_C8        1.3710e-01   3.6819e+05
+#define    GDP_bond_N9_C4        1.3740e-01   3.6484e+05
+#define    GDP_bond_C8_H80        1.0800e-01   3.0711e+05
+#define    GDP_bond_C8_N7        1.3040e-01   4.4267e+05
+#define    GDP_bond_N7_C5        1.3910e-01   3.4644e+05
+#define    GDP_bond_C5_C6        1.4190e-01   3.7405e+05
+#define    GDP_bond_C5_C4        1.3700e-01   4.3514e+05
+#define    GDP_bond_C6_O6        1.2290e-01   4.7698e+05
+#define    GDP_bond_C6_N1        1.3880e-01   3.4978e+05
+#define    GDP_bond_N1_H1N        1.0100e-01   3.6317e+05
+#define    GDP_bond_N1_C2        1.3810e-01   3.5731e+05
+#define    GDP_bond_C2_N2        1.3400e-01   4.0250e+05
+#define    GDP_bond_C2_N3        1.3390e-01   4.0417e+05
+#define    GDP_bond_N2_H21        1.0100e-01   3.6317e+05
+#define    GDP_bond_N2_H22        1.0100e-01   3.6317e+05
+#define    GDP_bond_N3_C4        1.3540e-01   3.8576e+05
+#define    GDP_bond_C3*_H30        1.0900e-01   2.8451e+05
+#define    GDP_bond_C3*_C2*        1.5260e-01   2.5941e+05
+#define    GDP_bond_C3*_O3*        1.4100e-01   2.6778e+05
+#define    GDP_bond_C2*_H20        1.0900e-01   2.8451e+05
+#define    GDP_bond_C2*_O2*        1.4100e-01   2.6778e+05
+#define    GDP_bond_O2*_H2*        9.6000e-02   4.6275e+05
+#define    GDP_bond_O3*_H3*        9.6000e-02   4.6275e+05
+#define    GDP_angle_O1B_PB_O2B  1.1990e+02   1.1715e+03
+#define    GDP_angle_O1B_PB_O3B  1.1990e+02   1.1715e+03
+#define    GDP_angle_O1B_PB_O3A  1.0823e+02   8.3680e+02
+#define    GDP_angle_PB_O3A_PA  1.5000e+02   1.0615e+02
+#define    GDP_angle_O2B_PB_O3B  1.1990e+02   1.1715e+03
+#define    GDP_angle_O2B_PB_O3A  1.0823e+02   8.3680e+02
+#define    GDP_angle_O3B_PB_O3A  1.0823e+02   8.3680e+02
+#define    GDP_angle_O3A_PA_O1A  1.0823e+02   8.3680e+02
+#define    GDP_angle_O3A_PA_O2A  1.0823e+02   8.3680e+02
+#define    GDP_angle_O3A_PA_O5*  1.0260e+02   3.7656e+02
+#define    GDP_angle_PA_O5*_C5*  1.2050e+02   8.3680e+02
+#define    GDP_angle_O1A_PA_O2A  1.1990e+02   1.1715e+03
+#define    GDP_angle_O1A_PA_O5*  1.0823e+02   8.3680e+02
+#define    GDP_angle_O2A_PA_O5*  1.0823e+02   8.3680e+02
+#define    GDP_angle_O5*_C5*_H50  1.0950e+02   4.1840e+02
+#define    GDP_angle_O5*_C5*_H51  1.0950e+02   4.1840e+02
+#define    GDP_angle_O5*_C5*_C4*  1.0950e+02   4.1840e+02
+#define    GDP_angle_C5*_C4*_H40  1.0950e+02   4.1840e+02
+#define    GDP_angle_C5*_C4*_O4*  1.0950e+02   4.1840e+02
+#define    GDP_angle_C5*_C4*_C3*  1.0950e+02   3.3472e+02
+#define    GDP_angle_H50_C5*_H51  1.0950e+02   2.9288e+02
+#define    GDP_angle_H50_C5*_C4*  1.0950e+02   4.1840e+02
+#define    GDP_angle_H51_C5*_C4*  1.0950e+02   4.1840e+02
+#define    GDP_angle_C4*_O4*_C1*  1.0950e+02   5.0208e+02
+#define    GDP_angle_C4*_C3*_H30  1.0950e+02   4.1840e+02
+#define    GDP_angle_C4*_C3*_C2*  1.0950e+02   3.3472e+02
+#define    GDP_angle_C4*_C3*_O3*  1.0950e+02   4.1840e+02
+#define    GDP_angle_H40_C4*_O4*  1.0950e+02   4.1840e+02
+#define    GDP_angle_H40_C4*_C3*  1.0950e+02   4.1840e+02
+#define    GDP_angle_O4*_C4*_C3*  1.0950e+02   4.1840e+02
+#define    GDP_angle_O4*_C1*_H10  1.0950e+02   4.1840e+02
+#define    GDP_angle_O4*_C1*_N9  1.0950e+02   4.1840e+02
+#define    GDP_angle_O4*_C1*_C2*  1.0950e+02   4.1840e+02
+#define    GDP_angle_C1*_N9_C8  1.2880e+02   5.8576e+02
+#define    GDP_angle_C1*_N9_C4  1.2580e+02   5.8576e+02
+#define    GDP_angle_C1*_C2*_C3*  1.0950e+02   3.3472e+02
+#define    GDP_angle_C1*_C2*_H20  1.0950e+02   4.1840e+02
+#define    GDP_angle_C1*_C2*_O2*  1.0950e+02   4.1840e+02
+#define    GDP_angle_H10_C1*_N9  1.0950e+02   4.1840e+02
+#define    GDP_angle_H10_C1*_C2*  1.0950e+02   4.1840e+02
+#define    GDP_angle_N9_C1*_C2*  1.0950e+02   4.1840e+02
+#define    GDP_angle_N9_C8_H80  1.2305e+02   4.1840e+02
+#define    GDP_angle_N9_C8_N7  1.1390e+02   5.8576e+02
+#define    GDP_angle_N9_C4_C5  1.0620e+02   5.8576e+02
+#define    GDP_angle_N9_C4_N3  1.2620e+02   5.8576e+02
+#define    GDP_angle_C8_N9_C4  1.0540e+02   5.8576e+02
+#define    GDP_angle_C8_N7_C5  1.0380e+02   5.8576e+02
+#define    GDP_angle_H80_C8_N7  1.2305e+02   4.1840e+02
+#define    GDP_angle_N7_C5_C6  1.3000e+02   5.8576e+02
+#define    GDP_angle_N7_C5_C4  1.1040e+02   5.8576e+02
+#define    GDP_angle_C5_C6_O6  1.2880e+02   6.6944e+02
+#define    GDP_angle_C5_C6_N1  1.1130e+02   5.8576e+02
+#define    GDP_angle_C5_C4_N3  1.2770e+02   5.8576e+02
+#define    GDP_angle_C6_C5_C4  1.1920e+02   5.2718e+02
+#define    GDP_angle_C6_N1_H1N  1.1680e+02   4.1840e+02
+#define    GDP_angle_C6_N1_C2  1.2520e+02   5.8576e+02
+#define    GDP_angle_O6_C6_N1  1.2060e+02   6.6944e+02
+#define    GDP_angle_N1_C2_N2  1.1600e+02   5.8576e+02
+#define    GDP_angle_N1_C2_N3  1.2330e+02   5.8576e+02
+#define    GDP_angle_H1N_N1_C2  1.1800e+02   4.1840e+02
+#define    GDP_angle_C2_N2_H21  1.2000e+02   4.1840e+02
+#define    GDP_angle_C2_N2_H22  1.2000e+02   4.1840e+02
+#define    GDP_angle_C2_N3_C4  1.1220e+02   5.8576e+02
+#define    GDP_angle_N2_C2_N3  1.1930e+02   5.8576e+02
+#define    GDP_angle_H21_N2_H22  1.2000e+02   2.9288e+02
+#define    GDP_angle_C3*_C2*_H20  1.0950e+02   4.1840e+02
+#define    GDP_angle_C3*_C2*_O2*  1.0950e+02   4.1840e+02
+#define    GDP_angle_C3*_O3*_H3*  1.0850e+02   4.6024e+02
+#define    GDP_angle_H30_C3*_C2*  1.0950e+02   4.1840e+02
+#define    GDP_angle_H30_C3*_O3*  1.0950e+02   4.1840e+02
+#define    GDP_angle_C2*_C3*_O3*  1.0950e+02   4.1840e+02
+#define    GDP_angle_C2*_O2*_H2*  1.0850e+02   4.6024e+02
+#define    GDP_angle_H20_C2*_O2*  1.0950e+02   4.1840e+02
+#define    GDP_torsion_O1B_PB_O3A_PA     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_PB_O3A_PA_O1A     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_PB_O3A_PA_O2A     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_PB_O3A_PA_O5*     3.75305     -3.75305      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_O2B_PB_O3A_PA     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_O3B_PB_O3A_PA     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_O3A_PA_O5*_C5*     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_PA_O5*_C5*_H50     0.14644      0.43932      0.00000     -0.58576      0.00000      0.00000
+#define    GDP_torsion_PA_O5*_C5*_H51     0.14644      0.43932      0.00000     -0.58576      0.00000      0.00000
+#define    GDP_torsion_PA_O5*_C5*_C4*     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    GDP_torsion_O1A_PA_O5*_C5*     2.46647      7.39940      0.00000     -9.86587      0.00000      0.00000
+#define    GDP_torsion_O2A_PA_O5*_C5*     2.46647      7.39940      0.00000     -9.86587      0.00000      0.00000
+#define    GDP_torsion_O5*_C5*_C4*_H40     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_O5*_C5*_C4*_O4*     0.60250      1.80749      9.83240     -2.40998      0.00000      0.00000
+#define    GDP_torsion_O5*_C5*_C4*_C3*     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_C5*_C4*_O4*_C1*     2.43927      4.80742     -0.83680     -6.40989      0.00000      0.00000
+#define    GDP_torsion_C5*_C4*_C3*_H30     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_C5*_C4*_C3*_C2*     3.68192      3.09616     -2.09200     -3.01248      0.00000      0.00000
+#define    GDP_torsion_C5*_C4*_C3*_O3*     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_H50_C5*_C4*_H40     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_H50_C5*_C4*_O4*     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_H50_C5*_C4*_C3*     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_H51_C5*_C4*_H40     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_H51_C5*_C4*_O4*     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_H51_C5*_C4*_C3*     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_C4*_O4*_C1*_H10     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    GDP_torsion_C4*_O4*_C1*_N9     1.60247      4.80742      5.43920     -6.40989      0.00000      0.00000
+#define    GDP_torsion_C4*_O4*_C1*_C2*     2.43927      4.80742     -0.83680     -6.40989      0.00000      0.00000
+#define    GDP_torsion_C4*_C3*_C2*_C1*     3.68192      3.09616     -2.09200     -3.01248      0.00000      0.00000
+#define    GDP_torsion_C4*_C3*_C2*_H20     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_C4*_C3*_C2*_O2*     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_C4*_C3*_O3*_H3*     1.71544      0.96232      0.00000     -2.67776      0.00000      0.00000
+#define    GDP_torsion_H40_C4*_O4*_C1*     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    GDP_torsion_H40_C4*_C3*_H30     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_H40_C4*_C3*_C2*     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_H40_C4*_C3*_O3*     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_O4*_C4*_C3*_H30     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_O4*_C4*_C3*_C2*     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_O4*_C4*_C3*_O3*     0.60250      1.80749      9.83240     -2.40998      0.00000      0.00000
+#define    GDP_torsion_O4*_C1*_N9_C8    10.46000    -10.46000      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_O4*_C1*_N9_C4     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_O4*_C1*_C2*_C3*     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_O4*_C1*_C2*_H20     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_O4*_C1*_C2*_O2*     0.60250      1.80749      9.83240     -2.40998      0.00000      0.00000
+#define    GDP_torsion_C1*_O4*_C4*_C3*     2.43927      4.80742     -0.83680     -6.40989      0.00000      0.00000
+#define    GDP_torsion_C1*_N9_C8_H80    14.22560      0.00000    -14.22560      0.00000      0.00000      0.00000
+#define    GDP_torsion_C1*_N9_C8_N7    14.22560      0.00000    -14.22560      0.00000      0.00000      0.00000
+#define    GDP_torsion_C1*_N9_C4_C5    13.80720      0.00000    -13.80720      0.00000      0.00000      0.00000
+#define    GDP_torsion_C1*_N9_C4_N3    13.80720      0.00000    -13.80720      0.00000      0.00000      0.00000
+#define    GDP_torsion_C1*_C2*_C3*_H30     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_C1*_C2*_C3*_O3*     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_C1*_C2*_O2*_H2*     1.71544      0.96232      0.00000     -2.67776      0.00000      0.00000
+#define    GDP_torsion_H10_C1*_N9_C8     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_H10_C1*_N9_C4     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_H10_C1*_C2*_C3*     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_H10_C1*_C2*_H20     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_H10_C1*_C2*_O2*     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_N9_C1*_C2*_C3*     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_N9_C1*_C2*_H20     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_N9_C1*_C2*_O2*     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_N9_C8_N7_C5    83.68000      0.00000    -83.68000      0.00000      0.00000      0.00000
+#define    GDP_torsion_N9_C4_C5_N7    45.60560      0.00000    -45.60560      0.00000      0.00000      0.00000
+#define    GDP_torsion_N9_C4_C5_C6    45.60560      0.00000    -45.60560      0.00000      0.00000      0.00000
+#define    GDP_torsion_N9_C4_N3_C2    34.72720      0.00000    -34.72720      0.00000      0.00000      0.00000
+#define    GDP_torsion_C8_N9_C1*_C2*     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_C8_N9_C4_C5    13.80720      0.00000    -13.80720      0.00000      0.00000      0.00000
+#define    GDP_torsion_C8_N9_C4_N3    13.80720      0.00000    -13.80720      0.00000      0.00000      0.00000
+#define    GDP_torsion_C8_N7_C5_C6    21.33840      0.00000    -21.33840      0.00000      0.00000      0.00000
+#define    GDP_torsion_C8_N7_C5_C4    21.33840      0.00000    -21.33840      0.00000      0.00000      0.00000
+#define    GDP_torsion_H80_C8_N9_C4    14.22560      0.00000    -14.22560      0.00000      0.00000      0.00000
+#define    GDP_torsion_H80_C8_N7_C5    83.68000      0.00000    -83.68000      0.00000      0.00000      0.00000
+#define    GDP_torsion_N7_C8_N9_C4    14.22560      0.00000    -14.22560      0.00000      0.00000      0.00000
+#define    GDP_torsion_N7_C5_C6_O6    25.10400      0.00000    -25.10400      0.00000      0.00000      0.00000
+#define    GDP_torsion_N7_C5_C6_N1    25.10400      0.00000    -25.10400      0.00000      0.00000      0.00000
+#define    GDP_torsion_N7_C5_C4_N3    45.60560      0.00000    -45.60560      0.00000      0.00000      0.00000
+#define    GDP_torsion_C5_C6_N1_H1N    11.29680      0.00000    -11.29680      0.00000      0.00000      0.00000
+#define    GDP_torsion_C5_C6_N1_C2    11.29680      0.00000    -11.29680      0.00000      0.00000      0.00000
+#define    GDP_torsion_C5_C4_N3_C2    34.72720      0.00000    -34.72720      0.00000      0.00000      0.00000
+#define    GDP_torsion_C6_C5_C4_N3    45.60560      0.00000    -45.60560      0.00000      0.00000      0.00000
+#define    GDP_torsion_C6_N1_C2_N2    12.55200      0.00000    -12.55200      0.00000      0.00000      0.00000
+#define    GDP_torsion_C6_N1_C2_N3    12.55200      0.00000    -12.55200      0.00000      0.00000      0.00000
+#define    GDP_torsion_O6_C6_C5_C4    25.10400      0.00000    -25.10400      0.00000      0.00000      0.00000
+#define    GDP_torsion_O6_C6_N1_H1N    11.29680      0.00000    -11.29680      0.00000      0.00000      0.00000
+#define    GDP_torsion_O6_C6_N1_C2    11.29680      0.00000    -11.29680      0.00000      0.00000      0.00000
+#define    GDP_torsion_N1_C6_C5_C4    25.10400      0.00000    -25.10400      0.00000      0.00000      0.00000
+#define    GDP_torsion_N1_C2_N2_H21    20.08320      0.00000    -20.08320      0.00000      0.00000      0.00000
+#define    GDP_torsion_N1_C2_N2_H22    20.08320      0.00000    -20.08320      0.00000      0.00000      0.00000
+#define    GDP_torsion_N1_C2_N3_C4    40.16640      0.00000    -40.16640      0.00000      0.00000      0.00000
+#define    GDP_torsion_H1N_N1_C2_N2    12.55200      0.00000    -12.55200      0.00000      0.00000      0.00000
+#define    GDP_torsion_H1N_N1_C2_N3    12.55200      0.00000    -12.55200      0.00000      0.00000      0.00000
+#define    GDP_torsion_N2_C2_N3_C4    40.16640      0.00000    -40.16640      0.00000      0.00000      0.00000
+#define    GDP_torsion_H21_N2_C2_N3    20.08320      0.00000    -20.08320      0.00000      0.00000      0.00000
+#define    GDP_torsion_H22_N2_C2_N3    20.08320      0.00000    -20.08320      0.00000      0.00000      0.00000
+#define    GDP_torsion_C4_N9_C1*_C2*     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_C3*_C2*_O2*_H2*     1.71544      0.96232      0.00000     -2.67776      0.00000      0.00000
+#define    GDP_torsion_H30_C3*_C2*_H20     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GDP_torsion_H30_C3*_C2*_O2*     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_H30_C3*_O3*_H3*     0.69733      2.09200      0.00000     -2.78933      0.00000      0.00000
+#define    GDP_torsion_C2*_C3*_O3*_H3*     1.71544      0.96232      0.00000     -2.67776      0.00000      0.00000
+#define    GDP_torsion_H20_C2*_C3*_O3*     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    GDP_torsion_H20_C2*_O2*_H2*     0.69733      2.09200      0.00000     -2.78933      0.00000      0.00000
+#define    GDP_torsion_O2*_C2*_C3*_O3*     0.60250      1.80749      9.83240     -2.40998      0.00000      0.00000
+#define    GDP_Improper_N9_N7_C8_H80      180.00      4.60240            2
+#define    GDP_Improper_C5_N1_C6_O6      180.00     43.93200            2
+#define    GDP_Improper_C6_C2_N1_H1N      180.00      4.18400            2
+#define    GDP_Improper_C2_H21_N2_H22      180.00      4.18400            2
+#define    GDP_Improper_N2_N1_C2_N3      180.00      4.60240            2
+#define    GDP_Improper_C4_C8_N9_C1*      180.00      4.18400            2
+;bonded prameters for GDP
+#define    GTP_bond_O1G_PG        1.4800e-01   4.3932e+05
+#define    GTP_bond_PG_O2G        1.4800e-01   4.3932e+05
+#define    GTP_bond_PG_O3G        1.4800e-01   4.3932e+05
+#define    GTP_bond_PG_O3B        1.6100e-01   1.9246e+05
+#define    GTP_bond_O3B_PB        1.6100e-01   1.9246e+05
+#define    GTP_bond_PB_O1B        1.4800e-01   4.3932e+05
+#define    GTP_bond_PB_O2B        1.4800e-01   4.3932e+05
+#define    GTP_bond_PB_O3A        1.6100e-01   1.9246e+05
+#define    GTP_bond_O3A_PA        1.6100e-01   1.9246e+05
+#define    GTP_bond_PA_O1A        1.4800e-01   4.3932e+05
+#define    GTP_bond_PA_O2A        1.4800e-01   4.3932e+05
+#define    GTP_bond_PA_O5'        1.6100e-01   1.9246e+05
+#define    GTP_bond_O5'_C5'        1.4100e-01   2.6778e+05
+#define    GTP_bond_C5'_H5'1        1.0900e-01   2.8451e+05
+#define    GTP_bond_C5'_H5'2        1.0900e-01   2.8451e+05
+#define    GTP_bond_C5'_C4'        1.5260e-01   2.5941e+05
+#define    GTP_bond_C4'_H4'        1.0900e-01   2.8451e+05
+#define    GTP_bond_C4'_O4'        1.4100e-01   2.6778e+05
+#define    GTP_bond_C4'_C3'        1.5260e-01   2.5941e+05
+#define    GTP_bond_O4'_C1'        1.4100e-01   2.6778e+05
+#define    GTP_bond_C1'_H1'        1.0900e-01   2.8451e+05
+#define    GTP_bond_C1'_N9        1.4750e-01   2.8200e+05
+#define    GTP_bond_C1'_C2'        1.5260e-01   2.5941e+05
+#define    GTP_bond_N9_C8        1.3710e-01   3.6819e+05
+#define    GTP_bond_N9_C4        1.3740e-01   3.6484e+05
+#define    GTP_bond_C8_H8        1.0800e-01   3.0711e+05
+#define    GTP_bond_C8_N7        1.3040e-01   4.4267e+05
+#define    GTP_bond_N7_C5        1.3910e-01   3.4644e+05
+#define    GTP_bond_C5_C6        1.4190e-01   3.7405e+05
+#define    GTP_bond_C5_C4        1.3700e-01   4.3514e+05
+#define    GTP_bond_C6_O6        1.2290e-01   4.7698e+05
+#define    GTP_bond_C6_N1        1.3880e-01   3.4978e+05
+#define    GTP_bond_N1_H1        1.0100e-01   3.6317e+05
+#define    GTP_bond_N1_C2        1.3810e-01   3.5731e+05
+#define    GTP_bond_C2_N2        1.3400e-01   4.0250e+05
+#define    GTP_bond_C2_N3        1.3390e-01   4.0417e+05
+#define    GTP_bond_N2_H21        1.0100e-01   3.6317e+05
+#define    GTP_bond_N2_H22        1.0100e-01   3.6317e+05
+#define    GTP_bond_N3_C4        1.3540e-01   3.8576e+05
+#define    GTP_bond_C3'_O3'        1.4100e-01   2.6778e+05
+#define    GTP_bond_C3'_H3'        1.0900e-01   2.8451e+05
+#define    GTP_bond_C3'_C2'        1.5260e-01   2.5941e+05
+#define    GTP_bond_O3'_H3T        9.6000e-02   4.6275e+05
+#define    GTP_bond_C2'_H2'1        1.0900e-01   2.8451e+05
+#define    GTP_bond_C2'_O2'        1.4100e-01   2.6778e+05
+#define    GTP_bond_O2'_HO'2        9.6000e-02   4.6275e+05
+#define    GTP_angle_O1G_PG_O2G  1.1990e+02   1.1715e+03
+#define    GTP_angle_O1G_PG_O3G  1.1990e+02   1.1715e+03
+#define    GTP_angle_O1G_PG_O3B  1.0823e+02   8.3680e+02
+#define    GTP_angle_PG_O3B_PB  1.5000e+02   1.0615e+02
+#define    GTP_angle_O2G_PG_O3G  1.1990e+02   1.1715e+03
+#define    GTP_angle_O2G_PG_O3B  1.0823e+02   8.3680e+02
+#define    GTP_angle_O3G_PG_O3B  1.0823e+02   8.3680e+02
+#define    GTP_angle_O3B_PB_O1B  1.0823e+02   8.3680e+02
+#define    GTP_angle_O3B_PB_O2B  1.0823e+02   8.3680e+02
+#define    GTP_angle_O3B_PB_O3A  1.0260e+02   3.7656e+02
+#define    GTP_angle_PB_O3A_PA  1.5000e+02   1.0615e+02
+#define    GTP_angle_O1B_PB_O2B  1.1990e+02   1.1715e+03
+#define    GTP_angle_O1B_PB_O3A  1.0823e+02   8.3680e+02
+#define    GTP_angle_O2B_PB_O3A  1.0823e+02   8.3680e+02
+#define    GTP_angle_O3A_PA_O1A  1.0823e+02   8.3680e+02
+#define    GTP_angle_O3A_PA_O2A  1.0823e+02   8.3680e+02
+#define    GTP_angle_O3A_PA_O5'  1.0260e+02   3.7656e+02
+#define    GTP_angle_PA_O5'_C5'  1.2050e+02   8.3680e+02
+#define    GTP_angle_O1A_PA_O2A  1.1990e+02   1.1715e+03
+#define    GTP_angle_O1A_PA_O5'  1.0823e+02   8.3680e+02
+#define    GTP_angle_O2A_PA_O5'  1.0823e+02   8.3680e+02
+#define    GTP_angle_O5'_C5'_H5'1  1.0950e+02   4.1840e+02
+#define    GTP_angle_O5'_C5'_H5'2  1.0950e+02   4.1840e+02
+#define    GTP_angle_O5'_C5'_C4'  1.0950e+02   4.1840e+02
+#define    GTP_angle_C5'_C4'_H4'  1.0950e+02   4.1840e+02
+#define    GTP_angle_C5'_C4'_O4'  1.0950e+02   4.1840e+02
+#define    GTP_angle_C5'_C4'_C3'  1.0950e+02   3.3472e+02
+#define    GTP_angle_H5'1_C5'_H5'2  1.0950e+02   2.9288e+02
+#define    GTP_angle_H5'1_C5'_C4'  1.0950e+02   4.1840e+02
+#define    GTP_angle_H5'2_C5'_C4'  1.0950e+02   4.1840e+02
+#define    GTP_angle_C4'_O4'_C1'  1.0950e+02   5.0208e+02
+#define    GTP_angle_C4'_C3'_O3'  1.0950e+02   4.1840e+02
+#define    GTP_angle_C4'_C3'_H3'  1.0950e+02   4.1840e+02
+#define    GTP_angle_C4'_C3'_C2'  1.0950e+02   3.3472e+02
+#define    GTP_angle_H4'_C4'_O4'  1.0950e+02   4.1840e+02
+#define    GTP_angle_H4'_C4'_C3'  1.0950e+02   4.1840e+02
+#define    GTP_angle_O4'_C4'_C3'  1.0950e+02   4.1840e+02
+#define    GTP_angle_O4'_C1'_H1'  1.0950e+02   4.1840e+02
+#define    GTP_angle_O4'_C1'_N9  1.0950e+02   4.1840e+02
+#define    GTP_angle_O4'_C1'_C2'  1.0950e+02   4.1840e+02
+#define    GTP_angle_C1'_N9_C8  1.2880e+02   5.8576e+02
+#define    GTP_angle_C1'_N9_C4  1.2580e+02   5.8576e+02
+#define    GTP_angle_C1'_C2'_C3'  1.0950e+02   3.3472e+02
+#define    GTP_angle_C1'_C2'_H2'1  1.0950e+02   4.1840e+02
+#define    GTP_angle_C1'_C2'_O2'  1.0950e+02   4.1840e+02
+#define    GTP_angle_H1'_C1'_N9  1.0950e+02   4.1840e+02
+#define    GTP_angle_H1'_C1'_C2'  1.0950e+02   4.1840e+02
+#define    GTP_angle_N9_C1'_C2'  1.0950e+02   4.1840e+02
+#define    GTP_angle_N9_C8_H8  1.2305e+02   4.1840e+02
+#define    GTP_angle_N9_C8_N7  1.1390e+02   5.8576e+02
+#define    GTP_angle_N9_C4_C5  1.0620e+02   5.8576e+02
+#define    GTP_angle_N9_C4_N3  1.2620e+02   5.8576e+02
+#define    GTP_angle_C8_N9_C4  1.0540e+02   5.8576e+02
+#define    GTP_angle_C8_N7_C5  1.0380e+02   5.8576e+02
+#define    GTP_angle_H8_C8_N7  1.2305e+02   4.1840e+02
+#define    GTP_angle_N7_C5_C6  1.3000e+02   5.8576e+02
+#define    GTP_angle_N7_C5_C4  1.1040e+02   5.8576e+02
+#define    GTP_angle_C5_C6_O6  1.2880e+02   6.6944e+02
+#define    GTP_angle_C5_C6_N1  1.1130e+02   5.8576e+02
+#define    GTP_angle_C5_C4_N3  1.2770e+02   5.8576e+02
+#define    GTP_angle_C6_C5_C4  1.1920e+02   5.2718e+02
+#define    GTP_angle_C6_N1_H1  1.1680e+02   4.1840e+02
+#define    GTP_angle_C6_N1_C2  1.2520e+02   5.8576e+02
+#define    GTP_angle_O6_C6_N1  1.2060e+02   6.6944e+02
+#define    GTP_angle_N1_C2_N2  1.1600e+02   5.8576e+02
+#define    GTP_angle_N1_C2_N3  1.2330e+02   5.8576e+02
+#define    GTP_angle_H1_N1_C2  1.1800e+02   4.1840e+02
+#define    GTP_angle_C2_N2_H21  1.2000e+02   4.1840e+02
+#define    GTP_angle_C2_N2_H22  1.2000e+02   4.1840e+02
+#define    GTP_angle_C2_N3_C4  1.1220e+02   5.8576e+02
+#define    GTP_angle_N2_C2_N3  1.1930e+02   5.8576e+02
+#define    GTP_angle_H21_N2_H22  1.2000e+02   2.9288e+02
+#define    GTP_angle_C3'_O3'_H3T  1.0850e+02   4.6024e+02
+#define    GTP_angle_C3'_C2'_H2'1  1.0950e+02   4.1840e+02
+#define    GTP_angle_C3'_C2'_O2'  1.0950e+02   4.1840e+02
+#define    GTP_angle_O3'_C3'_H3'  1.0950e+02   4.1840e+02
+#define    GTP_angle_O3'_C3'_C2'  1.0950e+02   4.1840e+02
+#define    GTP_angle_H3'_C3'_C2'  1.0950e+02   4.1840e+02
+#define    GTP_angle_C2'_O2'_HO'2  1.0850e+02   4.6024e+02
+#define    GTP_angle_H2'1_C2'_O2'  1.0950e+02   4.1840e+02
+#define    GTP_torsion_O1G_PG_O3B_PB     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_PG_O3B_PB_O1B     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_PG_O3B_PB_O2B     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_PG_O3B_PB_O3A     3.75305     -3.75305      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_O2G_PG_O3B_PB     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_O3G_PG_O3B_PB     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_O3B_PB_O3A_PA     3.75305     -3.75305      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_PB_O3A_PA_O1A     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_PB_O3A_PA_O2A     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_PB_O3A_PA_O5'     3.75305     -3.75305      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_O1B_PB_O3A_PA     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_O2B_PB_O3A_PA     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_O3A_PA_O5'_C5'     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_PA_O5'_C5'_H5'1     0.14644      0.43932      0.00000     -0.58576      0.00000      0.00000
+#define    GTP_torsion_PA_O5'_C5'_H5'2     0.14644      0.43932      0.00000     -0.58576      0.00000      0.00000
+#define    GTP_torsion_PA_O5'_C5'_C4'     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    GTP_torsion_O1A_PA_O5'_C5'     2.46647      7.39940      0.00000     -9.86587      0.00000      0.00000
+#define    GTP_torsion_O2A_PA_O5'_C5'     2.46647      7.39940      0.00000     -9.86587      0.00000      0.00000
+#define    GTP_torsion_O5'_C5'_C4'_H4'     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_O5'_C5'_C4'_O4'     0.60250      1.80749      9.83240     -2.40998      0.00000      0.00000
+#define    GTP_torsion_O5'_C5'_C4'_C3'     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_C5'_C4'_O4'_C1'     2.43927      4.80742     -0.83680     -6.40989      0.00000      0.00000
+#define    GTP_torsion_C5'_C4'_C3'_O3'     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_C5'_C4'_C3'_H3'     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_C5'_C4'_C3'_C2'     3.68192      3.09616     -2.09200     -3.01248      0.00000      0.00000
+#define    GTP_torsion_H5'1_C5'_C4'_H4'     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_H5'1_C5'_C4'_O4'     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_H5'1_C5'_C4'_C3'     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_H5'2_C5'_C4'_H4'     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_H5'2_C5'_C4'_O4'     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_H5'2_C5'_C4'_C3'     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_C4'_O4'_C1'_H1'     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    GTP_torsion_C4'_O4'_C1'_N9     1.60247      4.80742      5.43920     -6.40989      0.00000      0.00000
+#define    GTP_torsion_C4'_O4'_C1'_C2'     2.43927      4.80742     -0.83680     -6.40989      0.00000      0.00000
+#define    GTP_torsion_C4'_C3'_O3'_H3T     1.71544      0.96232      0.00000     -2.67776      0.00000      0.00000
+#define    GTP_torsion_C4'_C3'_C2'_C1'     3.68192      3.09616     -2.09200     -3.01248      0.00000      0.00000
+#define    GTP_torsion_C4'_C3'_C2'_H2'1     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_C4'_C3'_C2'_O2'     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_H4'_C4'_O4'_C1'     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    GTP_torsion_H4'_C4'_C3'_O3'     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_H4'_C4'_C3'_H3'     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_H4'_C4'_C3'_C2'     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_O4'_C4'_C3'_O3'     0.60250      1.80749      9.83240     -2.40998      0.00000      0.00000
+#define    GTP_torsion_O4'_C4'_C3'_H3'     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_O4'_C4'_C3'_C2'     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_O4'_C1'_N9_C8    10.46000    -10.46000      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_O4'_C1'_N9_C4     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_O4'_C1'_C2'_C3'     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_O4'_C1'_C2'_H2'1     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_O4'_C1'_C2'_O2'     0.60250      1.80749      9.83240     -2.40998      0.00000      0.00000
+#define    GTP_torsion_C1'_O4'_C4'_C3'     2.43927      4.80742     -0.83680     -6.40989      0.00000      0.00000
+#define    GTP_torsion_C1'_N9_C8_H8    14.22560      0.00000    -14.22560      0.00000      0.00000      0.00000
+#define    GTP_torsion_C1'_N9_C8_N7    14.22560      0.00000    -14.22560      0.00000      0.00000      0.00000
+#define    GTP_torsion_C1'_N9_C4_C5    13.80720      0.00000    -13.80720      0.00000      0.00000      0.00000
+#define    GTP_torsion_C1'_N9_C4_N3    13.80720      0.00000    -13.80720      0.00000      0.00000      0.00000
+#define    GTP_torsion_C1'_C2'_C3'_O3'     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_C1'_C2'_C3'_H3'     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_C1'_C2'_O2'_HO'2     1.71544      0.96232      0.00000     -2.67776      0.00000      0.00000
+#define    GTP_torsion_H1'_C1'_N9_C8     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_H1'_C1'_N9_C4     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_H1'_C1'_C2'_C3'     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_H1'_C1'_C2'_H2'1     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_H1'_C1'_C2'_O2'     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_N9_C1'_C2'_C3'     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_N9_C1'_C2'_H2'1     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_N9_C1'_C2'_O2'     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_N9_C8_N7_C5    83.68000      0.00000    -83.68000      0.00000      0.00000      0.00000
+#define    GTP_torsion_N9_C4_C5_N7    45.60560      0.00000    -45.60560      0.00000      0.00000      0.00000
+#define    GTP_torsion_N9_C4_C5_C6    45.60560      0.00000    -45.60560      0.00000      0.00000      0.00000
+#define    GTP_torsion_N9_C4_N3_C2    34.72720      0.00000    -34.72720      0.00000      0.00000      0.00000
+#define    GTP_torsion_C8_N9_C1'_C2'     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_C8_N9_C4_C5    13.80720      0.00000    -13.80720      0.00000      0.00000      0.00000
+#define    GTP_torsion_C8_N9_C4_N3    13.80720      0.00000    -13.80720      0.00000      0.00000      0.00000
+#define    GTP_torsion_C8_N7_C5_C6    21.33840      0.00000    -21.33840      0.00000      0.00000      0.00000
+#define    GTP_torsion_C8_N7_C5_C4    21.33840      0.00000    -21.33840      0.00000      0.00000      0.00000
+#define    GTP_torsion_H8_C8_N9_C4    14.22560      0.00000    -14.22560      0.00000      0.00000      0.00000
+#define    GTP_torsion_H8_C8_N7_C5    83.68000      0.00000    -83.68000      0.00000      0.00000      0.00000
+#define    GTP_torsion_N7_C8_N9_C4    14.22560      0.00000    -14.22560      0.00000      0.00000      0.00000
+#define    GTP_torsion_N7_C5_C6_O6    25.10400      0.00000    -25.10400      0.00000      0.00000      0.00000
+#define    GTP_torsion_N7_C5_C6_N1    25.10400      0.00000    -25.10400      0.00000      0.00000      0.00000
+#define    GTP_torsion_N7_C5_C4_N3    45.60560      0.00000    -45.60560      0.00000      0.00000      0.00000
+#define    GTP_torsion_C5_C6_N1_H1    11.29680      0.00000    -11.29680      0.00000      0.00000      0.00000
+#define    GTP_torsion_C5_C6_N1_C2    11.29680      0.00000    -11.29680      0.00000      0.00000      0.00000
+#define    GTP_torsion_C5_C4_N3_C2    34.72720      0.00000    -34.72720      0.00000      0.00000      0.00000
+#define    GTP_torsion_C6_C5_C4_N3    45.60560      0.00000    -45.60560      0.00000      0.00000      0.00000
+#define    GTP_torsion_C6_N1_C2_N2    12.55200      0.00000    -12.55200      0.00000      0.00000      0.00000
+#define    GTP_torsion_C6_N1_C2_N3    12.55200      0.00000    -12.55200      0.00000      0.00000      0.00000
+#define    GTP_torsion_O6_C6_C5_C4    25.10400      0.00000    -25.10400      0.00000      0.00000      0.00000
+#define    GTP_torsion_O6_C6_N1_H1    11.29680      0.00000    -11.29680      0.00000      0.00000      0.00000
+#define    GTP_torsion_O6_C6_N1_C2    11.29680      0.00000    -11.29680      0.00000      0.00000      0.00000
+#define    GTP_torsion_N1_C6_C5_C4    25.10400      0.00000    -25.10400      0.00000      0.00000      0.00000
+#define    GTP_torsion_N1_C2_N2_H21    20.08320      0.00000    -20.08320      0.00000      0.00000      0.00000
+#define    GTP_torsion_N1_C2_N2_H22    20.08320      0.00000    -20.08320      0.00000      0.00000      0.00000
+#define    GTP_torsion_N1_C2_N3_C4    40.16640      0.00000    -40.16640      0.00000      0.00000      0.00000
+#define    GTP_torsion_H1_N1_C2_N2    12.55200      0.00000    -12.55200      0.00000      0.00000      0.00000
+#define    GTP_torsion_H1_N1_C2_N3    12.55200      0.00000    -12.55200      0.00000      0.00000      0.00000
+#define    GTP_torsion_N2_C2_N3_C4    40.16640      0.00000    -40.16640      0.00000      0.00000      0.00000
+#define    GTP_torsion_H21_N2_C2_N3    20.08320      0.00000    -20.08320      0.00000      0.00000      0.00000
+#define    GTP_torsion_H22_N2_C2_N3    20.08320      0.00000    -20.08320      0.00000      0.00000      0.00000
+#define    GTP_torsion_C4_N9_C1'_C2'     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_C3'_C2'_O2'_HO'2     1.71544      0.96232      0.00000     -2.67776      0.00000      0.00000
+#define    GTP_torsion_O3'_C3'_C2'_H2'1     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_O3'_C3'_C2'_O2'     0.60250      1.80749      9.83240     -2.40998      0.00000      0.00000
+#define    GTP_torsion_H3T_O3'_C3'_H3'     0.69733      2.09200      0.00000     -2.78933      0.00000      0.00000
+#define    GTP_torsion_H3T_O3'_C3'_C2'     1.71544      0.96232      0.00000     -2.67776      0.00000      0.00000
+#define    GTP_torsion_H3'_C3'_C2'_H2'1     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    GTP_torsion_H3'_C3'_C2'_O2'     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    GTP_torsion_H2'1_C2'_O2'_HO'2     0.69733      2.09200      0.00000     -2.78933      0.00000      0.00000
+#define    GTP_Improper_N9_N7_C8_H8      180.00      4.60240            2
+#define    GTP_Improper_C5_N1_C6_O6      180.00     43.93200            2
+#define    GTP_Improper_C6_C2_N1_H1      180.00      4.18400            2
+#define    GTP_Improper_C2_H21_N2_H22      180.00      4.18400            2
+#define    GTP_Improper_N2_N1_C2_N3      180.00      4.60240            2
+#define    GTP_Improper_C4_C8_N9_C1'      180.00      4.18400            2
+;bonded parameters for the crystallized ligand
+#define    LIG_bond_C5_OA        1.4390e-01   2.5230e+05
+#define    LIG_bond_C5_H09        1.0930e-01   2.8108e+05
+#define    LIG_bond_C5_C20        1.5350e-01   2.5363e+05
+#define    LIG_bond_C5_C13        1.5080e-01   2.7472e+05
+#define    LIG_bond_OA_C12        1.3430e-01   3.4418e+05
+#define    LIG_bond_C12_O4        1.2140e-01   5.4225e+05
+#define    LIG_bond_C12_C4        1.5080e-01   2.7472e+05
+#define    LIG_bond_C20_H15        1.0920e-01   2.8225e+05
+#define    LIG_bond_C20_H38        1.0920e-01   2.8225e+05
+#define    LIG_bond_C20_C27        1.5130e-01   2.7070e+05
+#define    LIG_bond_C27_C32        1.3870e-01   4.0033e+05
+#define    LIG_bond_C27_C30        1.3870e-01   4.0033e+05
+#define    LIG_bond_C32_CE2        1.3870e-01   4.0033e+05
+#define    LIG_bond_C32_H27        1.0870e-01   2.8811e+05
+#define    LIG_bond_CE2_H29        1.0870e-01   2.8811e+05
+#define    LIG_bond_CE2_CZ        1.3870e-01   4.0033e+05
+#define    LIG_bond_CZ_CE1        1.3870e-01   4.0033e+05
+#define    LIG_bond_CZ_H30        1.0870e-01   2.8811e+05
+#define    LIG_bond_CE1_C30        1.3870e-01   4.0033e+05
+#define    LIG_bond_CE1_H28        1.0870e-01   2.8811e+05
+#define    LIG_bond_C30_H24        1.0870e-01   2.8811e+05
+#define    LIG_bond_C13_O5        1.2140e-01   5.4225e+05
+#define    LIG_bond_C13_N4        1.3450e-01   4.0016e+05
+#define    LIG_bond_N4_C33        1.4600e-01   2.7665e+05
+#define    LIG_bond_N4_C6        1.4246e-01   3.0895e+05
+#define    LIG_bond_C33_H34        1.0930e-01   2.8108e+05
+#define    LIG_bond_C33_H49        1.0930e-01   2.8108e+05
+#define    LIG_bond_C33_H63        1.0930e-01   2.8108e+05
+#define    LIG_bond_C6_C21        1.3390e-01   4.6903e+05
+#define    LIG_bond_C6_C14        1.4740e-01   3.0443e+05
+#define    LIG_bond_C21_H16        1.0870e-01   2.8811e+05
+#define    LIG_bond_C21_H39        1.0870e-01   2.8811e+05
+#define    LIG_bond_C14_O6        1.2140e-01   5.4225e+05
+#define    LIG_bond_C14_N5        1.3450e-01   4.0016e+05
+#define    LIG_bond_N5_H02        1.0090e-01   3.4326e+05
+#define    LIG_bond_N5_C7        1.4600e-01   2.7665e+05
+#define    LIG_bond_C7_C23        1.5350e-01   2.5363e+05
+#define    LIG_bond_C7_H9        1.0930e-01   2.8108e+05
+#define    LIG_bond_C7_C15        1.5080e-01   2.7472e+05
+#define    LIG_bond_C23_H7        1.0920e-01   2.8225e+05
+#define    LIG_bond_C23_H53        1.0920e-01   2.8225e+05
+#define    LIG_bond_C23_H66        1.0920e-01   2.8225e+05
+#define    LIG_bond_C15_O7        1.2140e-01   5.4225e+05
+#define    LIG_bond_C15_N6        1.3450e-01   4.0016e+05
+#define    LIG_bond_N6_C34        1.4600e-01   2.7665e+05
+#define    LIG_bond_N6_C8        1.4600e-01   2.7665e+05
+#define    LIG_bond_C34_H35        1.0930e-01   2.8108e+05
+#define    LIG_bond_C34_H50        1.0930e-01   2.8108e+05
+#define    LIG_bond_C34_H64        1.0930e-01   2.8108e+05
+#define    LIG_bond_C8_C25        1.5350e-01   2.5363e+05
+#define    LIG_bond_C8_H10        1.0930e-01   2.8108e+05
+#define    LIG_bond_C8_C16        1.5080e-01   2.7472e+05
+#define    LIG_bond_C25_H17        1.0920e-01   2.8225e+05
+#define    LIG_bond_C25_H40        1.0920e-01   2.8225e+05
+#define    LIG_bond_C25_H54        1.0920e-01   2.8225e+05
+#define    LIG_bond_C16_O8        1.2140e-01   5.4225e+05
+#define    LIG_bond_C16_N1        1.3450e-01   4.0016e+05
+#define    LIG_bond_N1_H03        1.0090e-01   3.4326e+05
+#define    LIG_bond_N1_C1        1.4600e-01   2.7665e+05
+#define    LIG_bond_C1_C17        1.5350e-01   2.5363e+05
+#define    LIG_bond_C1_H06        1.0930e-01   2.8108e+05
+#define    LIG_bond_C1_C10        1.5080e-01   2.7472e+05
+#define    LIG_bond_C17_C26        1.5350e-01   2.5363e+05
+#define    LIG_bond_C17_O10        1.4390e-01   2.5230e+05
+#define    LIG_bond_C17_H12        1.0930e-01   2.8108e+05
+#define    LIG_bond_C26_C29        1.5350e-01   2.5363e+05
+#define    LIG_bond_C26_C31        1.5350e-01   2.5363e+05
+#define    LIG_bond_C26_H19        1.0920e-01   2.8225e+05
+#define    LIG_bond_C29_H23        1.0920e-01   2.8225e+05
+#define    LIG_bond_C29_H44        1.0920e-01   2.8225e+05
+#define    LIG_bond_C29_H58        1.0920e-01   2.8225e+05
+#define    LIG_bond_C31_H26        1.0920e-01   2.8225e+05
+#define    LIG_bond_C31_H46        1.0920e-01   2.8225e+05
+#define    LIG_bond_C31_H60        1.0920e-01   2.8225e+05
+#define    LIG_bond_O10_C9        1.3430e-01   3.4418e+05
+#define    LIG_bond_C9_CA        1.5080e-01   2.7472e+05
+#define    LIG_bond_C9_O1        1.2140e-01   5.4225e+05
+#define    LIG_bond_CA_N        1.4600e-01   2.7665e+05
+#define    LIG_bond_CA_CB        1.5350e-01   2.5363e+05
+#define    LIG_bond_CA_H05        1.0930e-01   2.8108e+05
+#define    LIG_bond_N_C        1.3450e-01   4.0016e+05
+#define    LIG_bond_N_H8        1.0090e-01   3.4326e+05
+#define    LIG_bond_C_O        1.2140e-01   5.4225e+05
+#define    LIG_bond_C_CH3        1.5080e-01   2.7472e+05
+#define    LIG_bond_CH3_H31        1.0920e-01   2.8225e+05
+#define    LIG_bond_CH3_H47        1.0920e-01   2.8225e+05
+#define    LIG_bond_CH3_H61        1.0920e-01   2.8225e+05
+#define    LIG_bond_CB_CG        1.5350e-01   2.5363e+05
+#define    LIG_bond_CB_OH        1.4260e-01   2.6284e+05
+#define    LIG_bond_CB_H11        1.0930e-01   2.8108e+05
+#define    LIG_bond_CG_CD1        1.5350e-01   2.5363e+05
+#define    LIG_bond_CG_CD2        1.5350e-01   2.5363e+05
+#define    LIG_bond_CG_H18        1.0920e-01   2.8225e+05
+#define    LIG_bond_CD1_H22        1.0920e-01   2.8225e+05
+#define    LIG_bond_CD1_H43        1.0920e-01   2.8225e+05
+#define    LIG_bond_CD1_H57        1.0920e-01   2.8225e+05
+#define    LIG_bond_CD2_H25        1.0920e-01   2.8225e+05
+#define    LIG_bond_CD2_H45        1.0920e-01   2.8225e+05
+#define    LIG_bond_CD2_H59        1.0920e-01   2.8225e+05
+#define    LIG_bond_OH_H32        9.7400e-02   3.0928e+05
+#define    LIG_bond_C10_O2        1.2140e-01   5.4225e+05
+#define    LIG_bond_C10_N2        1.3450e-01   4.0016e+05
+#define    LIG_bond_N2_C24        1.4600e-01   2.7665e+05
+#define    LIG_bond_N2_C3        1.4600e-01   2.7665e+05
+#define    LIG_bond_C24_H01        1.0930e-01   2.8108e+05
+#define    LIG_bond_C24_H37        1.0930e-01   2.8108e+05
+#define    LIG_bond_C24_H52        1.0930e-01   2.8108e+05
+#define    LIG_bond_C3_C18        1.5350e-01   2.5363e+05
+#define    LIG_bond_C3_H07        1.0930e-01   2.8108e+05
+#define    LIG_bond_C3_C11        1.5080e-01   2.7472e+05
+#define    LIG_bond_C18_CG2        1.5350e-01   2.5363e+05
+#define    LIG_bond_C18_OG1        1.4390e-01   2.5230e+05
+#define    LIG_bond_C18_H13        1.0930e-01   2.8108e+05
+#define    LIG_bond_CG2_H20        1.0920e-01   2.8225e+05
+#define    LIG_bond_CG2_H41        1.0920e-01   2.8225e+05
+#define    LIG_bond_CG2_H55        1.0920e-01   2.8225e+05
+#define    LIG_bond_OG1_C22        1.4390e-01   2.5230e+05
+#define    LIG_bond_C22_H36        1.0930e-01   2.8108e+05
+#define    LIG_bond_C22_H51        1.0930e-01   2.8108e+05
+#define    LIG_bond_C22_H65        1.0930e-01   2.8108e+05
+#define    LIG_bond_C11_O3        1.2140e-01   5.4225e+05
+#define    LIG_bond_C11_O9        1.3430e-01   3.4418e+05
+#define    LIG_bond_O9_C19        1.4390e-01   2.5230e+05
+#define    LIG_bond_C19_C28        1.5350e-01   2.5363e+05
+#define    LIG_bond_C19_H14        1.0930e-01   2.8108e+05
+#define    LIG_bond_C19_C4        1.5350e-01   2.5363e+05
+#define    LIG_bond_C28_H21        1.0920e-01   2.8225e+05
+#define    LIG_bond_C28_H42        1.0920e-01   2.8225e+05
+#define    LIG_bond_C28_H56        1.0920e-01   2.8225e+05
+#define    LIG_bond_C4_H08        1.0930e-01   2.8108e+05
+#define    LIG_bond_C4_N3        1.4600e-01   2.7665e+05
+#define    LIG_bond_N3_H04        1.0090e-01   3.4326e+05
+#define    LIG_bond_N3_CN        1.3450e-01   4.0016e+05
+#define    LIG_bond_CN_ON        1.2140e-01   5.4225e+05
+#define    LIG_bond_CN_CM        1.5080e-01   2.7472e+05
+#define    LIG_bond_CM_H33        1.0920e-01   2.8225e+05
+#define    LIG_bond_CM_H48        1.0920e-01   2.8225e+05
+#define    LIG_bond_CM_H62        1.0920e-01   2.8225e+05
+#define    LIG_angle_C5_OA_C12  1.1514e+02   5.3246e+02
+#define    LIG_angle_C5_C20_H15  1.1005e+02   3.8802e+02
+#define    LIG_angle_C5_C20_H38  1.1005e+02   3.8802e+02
+#define    LIG_angle_C5_C20_C27  1.1209e+02   5.2928e+02
+#define    LIG_angle_C5_C13_O5  1.2311e+02   5.6928e+02
+#define    LIG_angle_C5_C13_N4  1.1515e+02   5.6785e+02
+#define    LIG_angle_OA_C5_H09  1.0882e+02   4.2543e+02
+#define    LIG_angle_OA_C5_C20  1.0842e+02   5.6718e+02
+#define    LIG_angle_OA_C5_C13  1.0982e+02   5.6928e+02
+#define    LIG_angle_OA_C12_O4  1.2333e+02   6.3538e+02
+#define    LIG_angle_OA_C12_C4  1.1196e+02   5.7957e+02
+#define    LIG_angle_C12_C4_C19  1.1053e+02   5.3379e+02
+#define    LIG_angle_C12_C4_H08  1.0766e+02   3.9857e+02
+#define    LIG_angle_C12_C4_N3  1.1156e+02   5.5789e+02
+#define    LIG_angle_O4_C12_C4  1.2311e+02   5.6928e+02
+#define    LIG_angle_H09_C5_C20  1.1007e+02   3.8794e+02
+#define    LIG_angle_H09_C5_C13  1.0766e+02   3.9857e+02
+#define    LIG_angle_C20_C5_C13  1.1053e+02   5.3379e+02
+#define    LIG_angle_C20_C27_C32  1.2063e+02   5.3421e+02
+#define    LIG_angle_C20_C27_C30  1.2063e+02   5.3421e+02
+#define    LIG_angle_H15_C20_H38  1.0835e+02   3.2995e+02
+#define    LIG_angle_H15_C20_C27  1.1015e+02   3.9296e+02
+#define    LIG_angle_H38_C20_C27  1.1015e+02   3.9296e+02
+#define    LIG_angle_C27_C32_CE2  1.1997e+02   5.6216e+02
+#define    LIG_angle_C27_C32_H27  1.2001e+02   4.0551e+02
+#define    LIG_angle_C27_C30_CE1  1.1997e+02   5.6216e+02
+#define    LIG_angle_C27_C30_H24  1.2001e+02   4.0551e+02
+#define    LIG_angle_C32_C27_C30  1.1997e+02   5.6216e+02
+#define    LIG_angle_C32_CE2_H29  1.2001e+02   4.0551e+02
+#define    LIG_angle_C32_CE2_CZ  1.1997e+02   5.6216e+02
+#define    LIG_angle_CE2_C32_H27  1.2001e+02   4.0551e+02
+#define    LIG_angle_CE2_CZ_CE1  1.1997e+02   5.6216e+02
+#define    LIG_angle_CE2_CZ_H30  1.2001e+02   4.0551e+02
+#define    LIG_angle_H29_CE2_CZ  1.2001e+02   4.0551e+02
+#define    LIG_angle_CZ_CE1_C30  1.1997e+02   5.6216e+02
+#define    LIG_angle_CZ_CE1_H28  1.2001e+02   4.0551e+02
+#define    LIG_angle_CE1_CZ_H30  1.2001e+02   4.0551e+02
+#define    LIG_angle_CE1_C30_H24  1.2001e+02   4.0551e+02
+#define    LIG_angle_C30_CE1_H28  1.2001e+02   4.0551e+02
+#define    LIG_angle_C13_N4_C33  1.2135e+02   5.3488e+02
+#define    LIG_angle_C13_N4_C6  1.3183e+02   5.2057e+02
+#define    LIG_angle_O5_C13_N4  1.2203e+02   6.3455e+02
+#define    LIG_angle_N4_C33_H34  1.0932e+02   4.1689e+02
+#define    LIG_angle_N4_C33_H49  1.0932e+02   4.1689e+02
+#define    LIG_angle_N4_C33_H63  1.0932e+02   4.1689e+02
+#define    LIG_angle_N4_C6_C21  1.2320e+02   5.7622e+02
+#define    LIG_angle_N4_C6_C14  1.1873e+02   5.5371e+02
+#define    LIG_angle_C33_N4_C6  1.1998e+02   5.2769e+02
+#define    LIG_angle_H34_C33_H49  1.0955e+02   3.2786e+02
+#define    LIG_angle_H34_C33_H63  1.0955e+02   3.2786e+02
+#define    LIG_angle_H49_C33_H63  1.0955e+02   3.2786e+02
+#define    LIG_angle_C6_C21_H16  1.2119e+02   4.1480e+02
+#define    LIG_angle_C6_C21_H39  1.2119e+02   4.1480e+02
+#define    LIG_angle_C6_C14_O6  1.2292e+02   5.7965e+02
+#define    LIG_angle_C6_C14_N5  1.1501e+02   5.7639e+02
+#define    LIG_angle_C21_C6_C14  1.2042e+02   5.5078e+02
+#define    LIG_angle_H16_C21_H39  1.1765e+02   3.1815e+02
+#define    LIG_angle_C14_N5_H02  1.1846e+02   4.1179e+02
+#define    LIG_angle_C14_N5_C7  1.2135e+02   5.3488e+02
+#define    LIG_angle_O6_C14_N5  1.2203e+02   6.3455e+02
+#define    LIG_angle_N5_C7_C23  1.1213e+02   5.5103e+02
+#define    LIG_angle_N5_C7_H9  1.0932e+02   4.1689e+02
+#define    LIG_angle_N5_C7_C15  1.1156e+02   5.5789e+02
+#define    LIG_angle_H02_N5_C7  1.1678e+02   3.8526e+02
+#define    LIG_angle_C7_C23_H7  1.1005e+02   3.8802e+02
+#define    LIG_angle_C7_C23_H53  1.1005e+02   3.8802e+02
+#define    LIG_angle_C7_C23_H66  1.1005e+02   3.8802e+02
+#define    LIG_angle_C7_C15_O7  1.2311e+02   5.6928e+02
+#define    LIG_angle_C7_C15_N6  1.1515e+02   5.6785e+02
+#define    LIG_angle_C23_C7_H9  1.1007e+02   3.8794e+02
+#define    LIG_angle_C23_C7_C15  1.1053e+02   5.3379e+02
+#define    LIG_angle_H7_C23_H53  1.0835e+02   3.2995e+02
+#define    LIG_angle_H7_C23_H66  1.0835e+02   3.2995e+02
+#define    LIG_angle_H53_C23_H66  1.0835e+02   3.2995e+02
+#define    LIG_angle_H9_C7_C15  1.0766e+02   3.9857e+02
+#define    LIG_angle_C15_N6_C34  1.2135e+02   5.3488e+02
+#define    LIG_angle_C15_N6_C8  1.2135e+02   5.3488e+02
+#define    LIG_angle_O7_C15_N6  1.2203e+02   6.3455e+02
+#define    LIG_angle_N6_C34_H35  1.0932e+02   4.1689e+02
+#define    LIG_angle_N6_C34_H50  1.0932e+02   4.1689e+02
+#define    LIG_angle_N6_C34_H64  1.0932e+02   4.1689e+02
+#define    LIG_angle_N6_C8_C25  1.1213e+02   5.5103e+02
+#define    LIG_angle_N6_C8_H10  1.0932e+02   4.1689e+02
+#define    LIG_angle_N6_C8_C16  1.1156e+02   5.5789e+02
+#define    LIG_angle_C34_N6_C8  1.1556e+02   5.2827e+02
+#define    LIG_angle_H35_C34_H50  1.0955e+02   3.2786e+02
+#define    LIG_angle_H35_C34_H64  1.0955e+02   3.2786e+02
+#define    LIG_angle_H50_C34_H64  1.0955e+02   3.2786e+02
+#define    LIG_angle_C8_C25_H17  1.1005e+02   3.8802e+02
+#define    LIG_angle_C8_C25_H40  1.1005e+02   3.8802e+02
+#define    LIG_angle_C8_C25_H54  1.1005e+02   3.8802e+02
+#define    LIG_angle_C8_C16_O8  1.2311e+02   5.6928e+02
+#define    LIG_angle_C8_C16_N1  1.1515e+02   5.6785e+02
+#define    LIG_angle_C25_C8_H10  1.1007e+02   3.8794e+02
+#define    LIG_angle_C25_C8_C16  1.1053e+02   5.3379e+02
+#define    LIG_angle_H17_C25_H40  1.0835e+02   3.2995e+02
+#define    LIG_angle_H17_C25_H54  1.0835e+02   3.2995e+02
+#define    LIG_angle_H40_C25_H54  1.0835e+02   3.2995e+02
+#define    LIG_angle_H10_C8_C16  1.0766e+02   3.9857e+02
+#define    LIG_angle_C16_N1_H03  1.1846e+02   4.1179e+02
+#define    LIG_angle_C16_N1_C1  1.2135e+02   5.3488e+02
+#define    LIG_angle_O8_C16_N1  1.2203e+02   6.3455e+02
+#define    LIG_angle_N1_C1_C17  1.1213e+02   5.5103e+02
+#define    LIG_angle_N1_C1_H06  1.0932e+02   4.1689e+02
+#define    LIG_angle_N1_C1_C10  1.1156e+02   5.5789e+02
+#define    LIG_angle_H03_N1_C1  1.1678e+02   3.8526e+02
+#define    LIG_angle_C1_C17_C26  1.1063e+02   5.2894e+02
+#define    LIG_angle_C1_C17_O10  1.0842e+02   5.6718e+02
+#define    LIG_angle_C1_C17_H12  1.1007e+02   3.8794e+02
+#define    LIG_angle_C1_C10_O2  1.2311e+02   5.6928e+02
+#define    LIG_angle_C1_C10_N2  1.1515e+02   5.6785e+02
+#define    LIG_angle_C17_C1_H06  1.1007e+02   3.8794e+02
+#define    LIG_angle_C17_C1_C10  1.1053e+02   5.3379e+02
+#define    LIG_angle_C17_C26_C29  1.1063e+02   5.2894e+02
+#define    LIG_angle_C17_C26_C31  1.1063e+02   5.2894e+02
+#define    LIG_angle_C17_C26_H19  1.1005e+02   3.8802e+02
+#define    LIG_angle_C17_O10_C9  1.1514e+02   5.3246e+02
+#define    LIG_angle_C26_C17_O10  1.0842e+02   5.6718e+02
+#define    LIG_angle_C26_C17_H12  1.1007e+02   3.8794e+02
+#define    LIG_angle_C26_C29_H23  1.1005e+02   3.8802e+02
+#define    LIG_angle_C26_C29_H44  1.1005e+02   3.8802e+02
+#define    LIG_angle_C26_C29_H58  1.1005e+02   3.8802e+02
+#define    LIG_angle_C26_C31_H26  1.1005e+02   3.8802e+02
+#define    LIG_angle_C26_C31_H46  1.1005e+02   3.8802e+02
+#define    LIG_angle_C26_C31_H60  1.1005e+02   3.8802e+02
+#define    LIG_angle_C29_C26_C31  1.1063e+02   5.2894e+02
+#define    LIG_angle_C29_C26_H19  1.1005e+02   3.8802e+02
+#define    LIG_angle_H23_C29_H44  1.0835e+02   3.2995e+02
+#define    LIG_angle_H23_C29_H58  1.0835e+02   3.2995e+02
+#define    LIG_angle_H44_C29_H58  1.0835e+02   3.2995e+02
+#define    LIG_angle_C31_C26_H19  1.1005e+02   3.8802e+02
+#define    LIG_angle_H26_C31_H46  1.0835e+02   3.2995e+02
+#define    LIG_angle_H26_C31_H60  1.0835e+02   3.2995e+02
+#define    LIG_angle_H46_C31_H60  1.0835e+02   3.2995e+02
+#define    LIG_angle_O10_C17_H12  1.0882e+02   4.2543e+02
+#define    LIG_angle_O10_C9_CA  1.1196e+02   5.7957e+02
+#define    LIG_angle_O10_C9_O1  1.2333e+02   6.3538e+02
+#define    LIG_angle_C9_CA_N  1.1156e+02   5.5789e+02
+#define    LIG_angle_C9_CA_CB  1.1053e+02   5.3379e+02
+#define    LIG_angle_C9_CA_H05  1.0766e+02   3.9857e+02
+#define    LIG_angle_CA_C9_O1  1.2311e+02   5.6928e+02
+#define    LIG_angle_CA_N_C  1.2135e+02   5.3488e+02
+#define    LIG_angle_CA_N_H8  1.1678e+02   3.8526e+02
+#define    LIG_angle_CA_CB_CG  1.1063e+02   5.2894e+02
+#define    LIG_angle_CA_CB_OH  1.0943e+02   5.6668e+02
+#define    LIG_angle_CA_CB_H11  1.1007e+02   3.8794e+02
+#define    LIG_angle_N_CA_CB  1.1213e+02   5.5103e+02
+#define    LIG_angle_N_CA_H05  1.0932e+02   4.1689e+02
+#define    LIG_angle_N_C_O  1.2203e+02   6.3455e+02
+#define    LIG_angle_N_C_CH3  1.1515e+02   5.6785e+02
+#define    LIG_angle_C_N_H8  1.1846e+02   4.1179e+02
+#define    LIG_angle_C_CH3_H31  1.0968e+02   3.9497e+02
+#define    LIG_angle_C_CH3_H47  1.0968e+02   3.9497e+02
+#define    LIG_angle_C_CH3_H61  1.0968e+02   3.9497e+02
+#define    LIG_angle_O_C_CH3  1.2311e+02   5.6928e+02
+#define    LIG_angle_H31_CH3_H47  1.0835e+02   3.2995e+02
+#define    LIG_angle_H31_CH3_H61  1.0835e+02   3.2995e+02
+#define    LIG_angle_H47_CH3_H61  1.0835e+02   3.2995e+02
+#define    LIG_angle_CB_CA_H05  1.1007e+02   3.8794e+02
+#define    LIG_angle_CB_CG_CD1  1.1063e+02   5.2894e+02
+#define    LIG_angle_CB_CG_CD2  1.1063e+02   5.2894e+02
+#define    LIG_angle_CB_CG_H18  1.1005e+02   3.8802e+02
+#define    LIG_angle_CB_OH_H32  1.0816e+02   3.9405e+02
+#define    LIG_angle_CG_CB_OH  1.0943e+02   5.6668e+02
+#define    LIG_angle_CG_CB_H11  1.1007e+02   3.8794e+02
+#define    LIG_angle_CG_CD1_H22  1.1005e+02   3.8802e+02
+#define    LIG_angle_CG_CD1_H43  1.1005e+02   3.8802e+02
+#define    LIG_angle_CG_CD1_H57  1.1005e+02   3.8802e+02
+#define    LIG_angle_CG_CD2_H25  1.1005e+02   3.8802e+02
+#define    LIG_angle_CG_CD2_H45  1.1005e+02   3.8802e+02
+#define    LIG_angle_CG_CD2_H59  1.1005e+02   3.8802e+02
+#define    LIG_angle_CD1_CG_CD2  1.1063e+02   5.2894e+02
+#define    LIG_angle_CD1_CG_H18  1.1005e+02   3.8802e+02
+#define    LIG_angle_H22_CD1_H43  1.0835e+02   3.2995e+02
+#define    LIG_angle_H22_CD1_H57  1.0835e+02   3.2995e+02
+#define    LIG_angle_H43_CD1_H57  1.0835e+02   3.2995e+02
+#define    LIG_angle_CD2_CG_H18  1.1005e+02   3.8802e+02
+#define    LIG_angle_H25_CD2_H45  1.0835e+02   3.2995e+02
+#define    LIG_angle_H25_CD2_H59  1.0835e+02   3.2995e+02
+#define    LIG_angle_H45_CD2_H59  1.0835e+02   3.2995e+02
+#define    LIG_angle_OH_CB_H11  1.0988e+02   4.2652e+02
+#define    LIG_angle_H06_C1_C10  1.0766e+02   3.9857e+02
+#define    LIG_angle_C10_N2_C24  1.2135e+02   5.3488e+02
+#define    LIG_angle_C10_N2_C3  1.2135e+02   5.3488e+02
+#define    LIG_angle_O2_C10_N2  1.2203e+02   6.3455e+02
+#define    LIG_angle_N2_C24_H01  1.0932e+02   4.1689e+02
+#define    LIG_angle_N2_C24_H37  1.0932e+02   4.1689e+02
+#define    LIG_angle_N2_C24_H52  1.0932e+02   4.1689e+02
+#define    LIG_angle_N2_C3_C18  1.1213e+02   5.5103e+02
+#define    LIG_angle_N2_C3_H07  1.0932e+02   4.1689e+02
+#define    LIG_angle_N2_C3_C11  1.1156e+02   5.5789e+02
+#define    LIG_angle_C24_N2_C3  1.1556e+02   5.2827e+02
+#define    LIG_angle_H01_C24_H37  1.0955e+02   3.2786e+02
+#define    LIG_angle_H01_C24_H52  1.0955e+02   3.2786e+02
+#define    LIG_angle_H37_C24_H52  1.0955e+02   3.2786e+02
+#define    LIG_angle_C3_C18_CG2  1.1063e+02   5.2894e+02
+#define    LIG_angle_C3_C18_OG1  1.0842e+02   5.6718e+02
+#define    LIG_angle_C3_C18_H13  1.1007e+02   3.8794e+02
+#define    LIG_angle_C3_C11_O3  1.2311e+02   5.6928e+02
+#define    LIG_angle_C3_C11_O9  1.1196e+02   5.7957e+02
+#define    LIG_angle_C18_C3_H07  1.1007e+02   3.8794e+02
+#define    LIG_angle_C18_C3_C11  1.1053e+02   5.3379e+02
+#define    LIG_angle_C18_CG2_H20  1.1005e+02   3.8802e+02
+#define    LIG_angle_C18_CG2_H41  1.1005e+02   3.8802e+02
+#define    LIG_angle_C18_CG2_H55  1.1005e+02   3.8802e+02
+#define    LIG_angle_C18_OG1_C22  1.1245e+02   5.2208e+02
+#define    LIG_angle_CG2_C18_OG1  1.0842e+02   5.6718e+02
+#define    LIG_angle_CG2_C18_H13  1.1007e+02   3.8794e+02
+#define    LIG_angle_H20_CG2_H41  1.0835e+02   3.2995e+02
+#define    LIG_angle_H20_CG2_H55  1.0835e+02   3.2995e+02
+#define    LIG_angle_H41_CG2_H55  1.0835e+02   3.2995e+02
+#define    LIG_angle_OG1_C18_H13  1.0882e+02   4.2543e+02
+#define    LIG_angle_OG1_C22_H36  1.0882e+02   4.2543e+02
+#define    LIG_angle_OG1_C22_H51  1.0882e+02   4.2543e+02
+#define    LIG_angle_OG1_C22_H65  1.0882e+02   4.2543e+02
+#define    LIG_angle_H36_C22_H51  1.0955e+02   3.2786e+02
+#define    LIG_angle_H36_C22_H65  1.0955e+02   3.2786e+02
+#define    LIG_angle_H51_C22_H65  1.0955e+02   3.2786e+02
+#define    LIG_angle_H07_C3_C11  1.0766e+02   3.9857e+02
+#define    LIG_angle_C11_O9_C19  1.1514e+02   5.3246e+02
+#define    LIG_angle_O3_C11_O9  1.2333e+02   6.3538e+02
+#define    LIG_angle_O9_C19_C28  1.0842e+02   5.6718e+02
+#define    LIG_angle_O9_C19_H14  1.0882e+02   4.2543e+02
+#define    LIG_angle_O9_C19_C4  1.0842e+02   5.6718e+02
+#define    LIG_angle_C19_C28_H21  1.1005e+02   3.8802e+02
+#define    LIG_angle_C19_C28_H42  1.1005e+02   3.8802e+02
+#define    LIG_angle_C19_C28_H56  1.1005e+02   3.8802e+02
+#define    LIG_angle_C19_C4_H08  1.1007e+02   3.8794e+02
+#define    LIG_angle_C19_C4_N3  1.1213e+02   5.5103e+02
+#define    LIG_angle_C28_C19_H14  1.1007e+02   3.8794e+02
+#define    LIG_angle_C28_C19_C4  1.1063e+02   5.2894e+02
+#define    LIG_angle_H21_C28_H42  1.0835e+02   3.2995e+02
+#define    LIG_angle_H21_C28_H56  1.0835e+02   3.2995e+02
+#define    LIG_angle_H42_C28_H56  1.0835e+02   3.2995e+02
+#define    LIG_angle_H14_C19_C4  1.1007e+02   3.8794e+02
+#define    LIG_angle_C4_N3_H04  1.1678e+02   3.8526e+02
+#define    LIG_angle_C4_N3_CN  1.2135e+02   5.3488e+02
+#define    LIG_angle_H08_C4_N3  1.0932e+02   4.1689e+02
+#define    LIG_angle_N3_CN_ON  1.2203e+02   6.3455e+02
+#define    LIG_angle_N3_CN_CM  1.1515e+02   5.6785e+02
+#define    LIG_angle_H04_N3_CN  1.1846e+02   4.1179e+02
+#define    LIG_angle_CN_CM_H33  1.0968e+02   3.9497e+02
+#define    LIG_angle_CN_CM_H48  1.0968e+02   3.9497e+02
+#define    LIG_angle_CN_CM_H62  1.0968e+02   3.9497e+02
+#define    LIG_angle_ON_CN_CM  1.2311e+02   5.6928e+02
+#define    LIG_angle_H33_CM_H48  1.0835e+02   3.2995e+02
+#define    LIG_angle_H33_CM_H62  1.0835e+02   3.2995e+02
+#define    LIG_angle_H48_CM_H62  1.0835e+02   3.2995e+02
+#define    LIG_torsion_C5_OA_C12_O4    28.45120      5.85760    -22.59360      0.00000      0.00000      0.00000
+#define    LIG_torsion_C5_OA_C12_C4    22.59360      0.00000    -22.59360      0.00000      0.00000      0.00000
+#define    LIG_torsion_C5_C20_C27_C32     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C5_C20_C27_C30     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C5_C13_N4_C33    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C5_C13_N4_C6    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_OA_C5_C20_H15     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_OA_C5_C20_H38     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_OA_C5_C20_C27     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_OA_C5_C13_O5     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_OA_C5_C13_N4     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_OA_C12_C4_C19     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_OA_C12_C4_H08     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_OA_C12_C4_N3     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C12_C4_C19_O9     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_C12_C4_C19_C28     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_C12_C4_C19_H14     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_C12_C4_N3_H04     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C12_C4_N3_CN    10.46000     -3.34720     -7.11280      0.00000      0.00000      0.00000
+#define    LIG_torsion_O4_C12_C4_C19     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_O4_C12_C4_H08     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    LIG_torsion_O4_C12_C4_N3     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H09_C5_OA_C12     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    LIG_torsion_H09_C5_C20_H15     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H09_C5_C20_H38     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H09_C5_C20_C27     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H09_C5_C13_O5     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    LIG_torsion_H09_C5_C13_N4     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C20_C5_OA_C12     4.94967      8.15462      0.00000     -6.40989      0.00000      0.00000
+#define    LIG_torsion_C20_C5_C13_O5     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C20_C5_C13_N4     0.83680      0.00000     -2.76144      0.00000      3.34720      0.00000
+#define    LIG_torsion_C20_C27_C32_CE2    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_C20_C27_C32_H27    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_C20_C27_C30_CE1    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_C20_C27_C30_H24    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_H15_C20_C27_C32     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H15_C20_C27_C30     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H38_C20_C27_C32     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H38_C20_C27_C30     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C27_C32_CE2_H29    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_C27_C32_CE2_CZ    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_C27_C30_CE1_CZ    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_C27_C30_CE1_H28    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_C32_C27_C30_CE1    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_C32_C27_C30_H24    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_C32_CE2_CZ_CE1    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_C32_CE2_CZ_H30    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_CE2_C32_C27_C30    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_CE2_CZ_CE1_C30    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_CE2_CZ_CE1_H28    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_H29_CE2_C32_H27    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_H29_CE2_CZ_CE1    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_H29_CE2_CZ_H30    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_CZ_CE2_C32_H27    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_CZ_CE1_C30_H24    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_C30_C27_C32_H27    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_C30_CE1_CZ_H30    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_H24_C30_CE1_H28    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_H28_CE1_CZ_H30    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    LIG_torsion_C13_C5_OA_C12     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    LIG_torsion_C13_C5_C20_H15     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_C13_C5_C20_H38     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_C13_C5_C20_C27     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_C13_N4_C33_H34     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C13_N4_C33_H49     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C13_N4_C33_H63     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C13_N4_C6_C21    10.46000      5.02080     -5.43920      0.00000      0.00000      0.00000
+#define    LIG_torsion_C13_N4_C6_C14     5.43920      0.00000     -5.43920      0.00000      0.00000      0.00000
+#define    LIG_torsion_O5_C13_N4_C33    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_O5_C13_N4_C6    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_N4_C6_C21_H16    55.64720      0.00000    -55.64720      0.00000      0.00000      0.00000
+#define    LIG_torsion_N4_C6_C21_H39    55.64720      0.00000    -55.64720      0.00000      0.00000      0.00000
+#define    LIG_torsion_N4_C6_C14_O6    18.20040      0.00000    -18.20040      0.00000      0.00000      0.00000
+#define    LIG_torsion_N4_C6_C14_N5    18.20040      0.00000    -18.20040      0.00000      0.00000      0.00000
+#define    LIG_torsion_C33_N4_C6_C21     5.43920      0.00000     -5.43920      0.00000      0.00000      0.00000
+#define    LIG_torsion_C33_N4_C6_C14     5.43920      0.00000     -5.43920      0.00000      0.00000      0.00000
+#define    LIG_torsion_H34_C33_N4_C6     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H49_C33_N4_C6     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H63_C33_N4_C6     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C6_C14_N5_H02    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C6_C14_N5_C7    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C21_C6_C14_O6    18.20040      0.00000    -18.20040      0.00000      0.00000      0.00000
+#define    LIG_torsion_C21_C6_C14_N5    18.20040      0.00000    -18.20040      0.00000      0.00000      0.00000
+#define    LIG_torsion_H16_C21_C6_C14    55.64720      0.00000    -55.64720      0.00000      0.00000      0.00000
+#define    LIG_torsion_H39_C21_C6_C14    55.64720      0.00000    -55.64720      0.00000      0.00000      0.00000
+#define    LIG_torsion_C14_N5_C7_C23     2.84512     -4.10032     16.73600      2.51040    -16.73600      0.00000
+#define    LIG_torsion_C14_N5_C7_H9     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C14_N5_C7_C15    10.46000     -3.34720     -7.11280      0.00000      0.00000      0.00000
+#define    LIG_torsion_O6_C14_N5_H02    29.28800     -8.36800    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_O6_C14_N5_C7    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_N5_C7_C23_H7     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_N5_C7_C23_H53     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_N5_C7_C23_H66     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_N5_C7_C15_O7     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_N5_C7_C15_N6    23.84880      7.11280    -16.73600      0.00000      0.00000      0.00000
+#define    LIG_torsion_H02_N5_C7_C23     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H02_N5_C7_H9     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H02_N5_C7_C15     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C7_C15_N6_C34    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C7_C15_N6_C8    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C23_C7_C15_O7     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C23_C7_C15_N6     0.83680      0.00000     -2.76144      0.00000      3.34720      0.00000
+#define    LIG_torsion_H7_C23_C7_H9     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H7_C23_C7_C15     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H53_C23_C7_H9     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H53_C23_C7_C15     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H66_C23_C7_H9     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H66_C23_C7_C15     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H9_C7_C15_O7     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    LIG_torsion_H9_C7_C15_N6     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C15_N6_C34_H35     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C15_N6_C34_H50     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C15_N6_C34_H64     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C15_N6_C8_C25     2.84512     -4.10032     16.73600      2.51040    -16.73600      0.00000
+#define    LIG_torsion_C15_N6_C8_H10     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C15_N6_C8_C16    10.46000     -3.34720     -7.11280      0.00000      0.00000      0.00000
+#define    LIG_torsion_O7_C15_N6_C34    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_O7_C15_N6_C8    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_N6_C8_C25_H17     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_N6_C8_C25_H40     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_N6_C8_C25_H54     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_N6_C8_C16_O8     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_N6_C8_C16_N1    23.84880      7.11280    -16.73600      0.00000      0.00000      0.00000
+#define    LIG_torsion_C34_N6_C8_C25     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C34_N6_C8_H10     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C34_N6_C8_C16     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H35_C34_N6_C8     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H50_C34_N6_C8     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H64_C34_N6_C8     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C8_C16_N1_H03    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C8_C16_N1_C1    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C25_C8_C16_O8     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C25_C8_C16_N1     0.83680      0.00000     -2.76144      0.00000      3.34720      0.00000
+#define    LIG_torsion_H17_C25_C8_H10     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H17_C25_C8_C16     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H40_C25_C8_H10     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H40_C25_C8_C16     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H54_C25_C8_H10     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H54_C25_C8_C16     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H10_C8_C16_O8     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    LIG_torsion_H10_C8_C16_N1     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C16_N1_C1_C17     2.84512     -4.10032     16.73600      2.51040    -16.73600      0.00000
+#define    LIG_torsion_C16_N1_C1_H06     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C16_N1_C1_C10    10.46000     -3.34720     -7.11280      0.00000      0.00000      0.00000
+#define    LIG_torsion_O8_C16_N1_H03    29.28800     -8.36800    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_O8_C16_N1_C1    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_N1_C1_C17_C26     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_N1_C1_C17_O10     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_N1_C1_C17_H12     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_N1_C1_C10_O2     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_N1_C1_C10_N2    23.84880      7.11280    -16.73600      0.00000      0.00000      0.00000
+#define    LIG_torsion_H03_N1_C1_C17     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H03_N1_C1_H06     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H03_N1_C1_C10     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C1_C17_C26_C29     3.68192      3.09616     -2.09200     -3.01248      0.00000      0.00000
+#define    LIG_torsion_C1_C17_C26_C31     3.68192      3.09616     -2.09200     -3.01248      0.00000      0.00000
+#define    LIG_torsion_C1_C17_C26_H19     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_C1_C17_O10_C9     4.94967      8.15462      0.00000     -6.40989      0.00000      0.00000
+#define    LIG_torsion_C1_C10_N2_C24    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C1_C10_N2_C3    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C17_C1_C10_O2     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C17_C1_C10_N2     0.83680      0.00000     -2.76144      0.00000      3.34720      0.00000
+#define    LIG_torsion_C17_C26_C29_H23     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_C17_C26_C29_H44     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_C17_C26_C29_H58     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_C17_C26_C31_H26     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_C17_C26_C31_H46     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_C17_C26_C31_H60     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_C17_O10_C9_CA    22.59360      0.00000    -22.59360      0.00000      0.00000      0.00000
+#define    LIG_torsion_C17_O10_C9_O1    28.45120      5.85760    -22.59360      0.00000      0.00000      0.00000
+#define    LIG_torsion_C26_C17_C1_H06     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_C26_C17_C1_C10     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_C26_C17_O10_C9     4.94967      8.15462      0.00000     -6.40989      0.00000      0.00000
+#define    LIG_torsion_C29_C26_C17_O10     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_C29_C26_C17_H12     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_C29_C26_C31_H26     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_C29_C26_C31_H46     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_C29_C26_C31_H60     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_H23_C29_C26_C31     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_H23_C29_C26_H19     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    LIG_torsion_H44_C29_C26_C31     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_H44_C29_C26_H19     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    LIG_torsion_H58_C29_C26_C31     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_H58_C29_C26_H19     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    LIG_torsion_C31_C26_C17_O10     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_C31_C26_C17_H12     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H26_C31_C26_H19     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    LIG_torsion_H46_C31_C26_H19     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    LIG_torsion_H60_C31_C26_H19     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    LIG_torsion_H19_C26_C17_O10     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H19_C26_C17_H12     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_O10_C17_C1_H06     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_O10_C17_C1_C10     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_O10_C9_CA_N     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_O10_C9_CA_CB     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_O10_C9_CA_H05     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C9_O10_C17_H12     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    LIG_torsion_C9_CA_N_C    10.46000     -3.34720     -7.11280      0.00000      0.00000      0.00000
+#define    LIG_torsion_C9_CA_N_H8     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C9_CA_CB_CG     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_C9_CA_CB_OH     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_C9_CA_CB_H11     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_CA_N_C_O    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_CA_N_C_CH3    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_CA_CB_CG_CD1     3.68192      3.09616     -2.09200     -3.01248      0.00000      0.00000
+#define    LIG_torsion_CA_CB_CG_CD2     3.68192      3.09616     -2.09200     -3.01248      0.00000      0.00000
+#define    LIG_torsion_CA_CB_CG_H18     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_CA_CB_OH_H32     1.71544      0.96232      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_N_CA_C9_O1     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_N_CA_CB_CG     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_N_CA_CB_OH     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_N_CA_CB_H11     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_N_C_CH3_H31     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_N_C_CH3_H47     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_N_C_CH3_H61     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C_N_CA_CB     2.84512     -4.10032     16.73600      2.51040    -16.73600      0.00000
+#define    LIG_torsion_C_N_CA_H05     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_O_C_N_H8    29.28800     -8.36800    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_O_C_CH3_H31     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    LIG_torsion_O_C_CH3_H47     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    LIG_torsion_O_C_CH3_H61     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    LIG_torsion_CH3_C_N_H8    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H8_N_CA_CB     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H8_N_CA_H05     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_CB_CA_C9_O1     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_CB_CG_CD1_H22     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_CB_CG_CD1_H43     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_CB_CG_CD1_H57     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_CB_CG_CD2_H25     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_CB_CG_CD2_H45     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_CB_CG_CD2_H59     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_CG_CB_CA_H05     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_CG_CB_OH_H32     1.71544      0.96232      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_CD1_CG_CB_OH     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_CD1_CG_CB_H11     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_CD1_CG_CD2_H25     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_CD1_CG_CD2_H45     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_CD1_CG_CD2_H59     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_H22_CD1_CG_CD2     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_H22_CD1_CG_H18     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    LIG_torsion_H43_CD1_CG_CD2     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_H43_CD1_CG_H18     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    LIG_torsion_H57_CD1_CG_CD2     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_H57_CD1_CG_H18     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    LIG_torsion_CD2_CG_CB_OH     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_CD2_CG_CB_H11     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H25_CD2_CG_H18     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    LIG_torsion_H45_CD2_CG_H18     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    LIG_torsion_H59_CD2_CG_H18     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    LIG_torsion_H18_CG_CB_OH     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H18_CG_CB_H11     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_OH_CB_CA_H05     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H32_OH_CB_H11     0.69733      2.09200      0.00000     -2.78933      0.00000      0.00000
+#define    LIG_torsion_H11_CB_CA_H05     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H05_CA_C9_O1     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    LIG_torsion_H12_C17_C1_H06     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H12_C17_C1_C10     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H06_C1_C10_O2     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    LIG_torsion_H06_C1_C10_N2     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C10_N2_C24_H01     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C10_N2_C24_H37     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C10_N2_C24_H52     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C10_N2_C3_C18     2.84512     -4.10032     16.73600      2.51040    -16.73600      0.00000
+#define    LIG_torsion_C10_N2_C3_H07     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C10_N2_C3_C11    10.46000     -3.34720     -7.11280      0.00000      0.00000      0.00000
+#define    LIG_torsion_O2_C10_N2_C24    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_O2_C10_N2_C3    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_N2_C3_C18_CG2     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_N2_C3_C18_OG1     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_N2_C3_C18_H13     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_N2_C3_C11_O3     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_N2_C3_C11_O9     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C24_N2_C3_C18     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C24_N2_C3_H07     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C24_N2_C3_C11     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H01_C24_N2_C3     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H37_C24_N2_C3     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H52_C24_N2_C3     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C3_C18_CG2_H20     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_C3_C18_CG2_H41     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_C3_C18_CG2_H55     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_C3_C18_OG1_C22     2.43927      4.80742     -0.83680     -6.40989      0.00000      0.00000
+#define    LIG_torsion_C3_C11_O9_C19    22.59360      0.00000    -22.59360      0.00000      0.00000      0.00000
+#define    LIG_torsion_C18_C3_C11_O3     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C18_C3_C11_O9     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C18_OG1_C22_H36     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    LIG_torsion_C18_OG1_C22_H51     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    LIG_torsion_C18_OG1_C22_H65     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    LIG_torsion_CG2_C18_C3_H07     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_CG2_C18_C3_C11     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_CG2_C18_OG1_C22     2.43927      4.80742     -0.83680     -6.40989      0.00000      0.00000
+#define    LIG_torsion_H20_CG2_C18_OG1     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H20_CG2_C18_H13     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H41_CG2_C18_OG1     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H41_CG2_C18_H13     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H55_CG2_C18_OG1     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H55_CG2_C18_H13     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_OG1_C18_C3_H07     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_OG1_C18_C3_C11     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_C22_OG1_C18_H13     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    LIG_torsion_H13_C18_C3_H07     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H13_C18_C3_C11     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H07_C3_C11_O3     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    LIG_torsion_H07_C3_C11_O9     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C11_O9_C19_C28     4.94967      8.15462      0.00000     -6.40989      0.00000      0.00000
+#define    LIG_torsion_C11_O9_C19_H14     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    LIG_torsion_C11_O9_C19_C4     4.94967      8.15462      0.00000     -6.40989      0.00000      0.00000
+#define    LIG_torsion_O3_C11_O9_C19    28.45120      5.85760    -22.59360      0.00000      0.00000      0.00000
+#define    LIG_torsion_O9_C19_C28_H21     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_O9_C19_C28_H42     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_O9_C19_C28_H56     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_O9_C19_C4_H08     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_O9_C19_C4_N3     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_C19_C4_N3_H04     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C19_C4_N3_CN     2.84512     -4.10032     16.73600      2.51040    -16.73600      0.00000
+#define    LIG_torsion_C28_C19_C4_H08     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_C28_C19_C4_N3     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H21_C28_C19_H14     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H21_C28_C19_C4     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_H42_C28_C19_H14     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H42_C28_C19_C4     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_H56_C28_C19_H14     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H56_C28_C19_C4     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    LIG_torsion_H14_C19_C4_H08     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_H14_C19_C4_N3     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    LIG_torsion_C4_N3_CN_ON    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_C4_N3_CN_CM    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H08_C4_N3_H04     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H08_C4_N3_CN     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_N3_CN_CM_H33     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_N3_CN_CM_H48     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_N3_CN_CM_H62     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H04_N3_CN_ON    29.28800     -8.36800    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_H04_N3_CN_CM    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    LIG_torsion_ON_CN_CM_H33     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    LIG_torsion_ON_CN_CM_H48     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    LIG_torsion_ON_CN_CM_H62     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    LIG_Improper_C5_N4_C13_O5      180.00     43.93200            2
+#define    LIG_Improper_C27_CE2_C32_H27      180.00      4.60240            2
+#define    LIG_Improper_C27_CE1_C30_H24      180.00      4.60240            2
+#define    LIG_Improper_C32_CZ_CE2_H29      180.00      4.60240            2
+#define    LIG_Improper_C32_C30_C27_C20      180.00      4.60240            2
+#define    LIG_Improper_CE2_CE1_CZ_H30      180.00      4.60240            2
+#define    LIG_Improper_CZ_C30_CE1_H28      180.00      4.60240            2
+#define    LIG_Improper_C13_C33_N4_C6      180.00      4.60240            2
+#define    LIG_Improper_C6_H16_C21_H39      180.00      4.60240            2
+#define    LIG_Improper_C6_N5_C14_O6      180.00     43.93200            2
+#define    LIG_Improper_C14_C21_C6_N4      180.00      4.60240            2
+#define    LIG_Improper_C14_C7_N5_H02      180.00      4.60240            2
+#define    LIG_Improper_C7_N6_C15_O7      180.00     43.93200            2
+#define    LIG_Improper_C15_C34_N6_C8      180.00      4.60240            2
+#define    LIG_Improper_C8_N1_C16_O8      180.00     43.93200            2
+#define    LIG_Improper_C16_C1_N1_H03      180.00      4.60240            2
+#define    LIG_Improper_C1_N2_C10_O2      180.00     43.93200            2
+#define    LIG_Improper_CA_O1_C9_O10      180.00     43.93200            2
+#define    LIG_Improper_C_CA_N_H8      180.00      4.60240            2
+#define    LIG_Improper_CH3_N_C_O      180.00     43.93200            2
+#define    LIG_Improper_C10_C24_N2_C3      180.00      4.60240            2
+#define    LIG_Improper_C3_O3_C11_O9      180.00     43.93200            2
+#define    LIG_Improper_C4_O4_C12_OA      180.00     43.93200            2
+#define    LIG_Improper_CN_C4_N3_H04      180.00      4.60240            2
+#define    LIG_Improper_CM_N3_CN_ON      180.00     43.93200            2
+;bonded parameters for the ligand WUL
+#define    WUL_bond_N_C        1.3450e-01   4.0016e+05
+#define    WUL_bond_N_H8        1.0090e-01   3.4326e+05
+#define    WUL_bond_N_CA        1.4600e-01   2.7665e+05
+#define    WUL_bond_C_O        1.2140e-01   5.4225e+05
+#define    WUL_bond_C_CH3        1.5080e-01   2.7472e+05
+#define    WUL_bond_CH3_H31        1.0920e-01   2.8225e+05
+#define    WUL_bond_CH3_H47        1.0920e-01   2.8225e+05
+#define    WUL_bond_CH3_H61        1.0920e-01   2.8225e+05
+#define    WUL_bond_CA_CB        1.5350e-01   2.5363e+05
+#define    WUL_bond_CA_H05        1.0930e-01   2.8108e+05
+#define    WUL_bond_CA_C9        1.5080e-01   2.7472e+05
+#define    WUL_bond_CB_CG        1.5350e-01   2.5363e+05
+#define    WUL_bond_CB_OH        1.4260e-01   2.6284e+05
+#define    WUL_bond_CB_H11        1.0930e-01   2.8108e+05
+#define    WUL_bond_CG_CD1        1.5350e-01   2.5363e+05
+#define    WUL_bond_CG_CD2        1.5350e-01   2.5363e+05
+#define    WUL_bond_CG_H18        1.0920e-01   2.8225e+05
+#define    WUL_bond_CD1_H22        1.0920e-01   2.8225e+05
+#define    WUL_bond_CD1_H43        1.0920e-01   2.8225e+05
+#define    WUL_bond_CD1_H57        1.0920e-01   2.8225e+05
+#define    WUL_bond_CD2_H25        1.0920e-01   2.8225e+05
+#define    WUL_bond_CD2_H45        1.0920e-01   2.8225e+05
+#define    WUL_bond_CD2_H59        1.0920e-01   2.8225e+05
+#define    WUL_bond_OH_H32        9.7400e-02   3.0928e+05
+#define    WUL_bond_C9_O1        1.2140e-01   5.4225e+05
+#define    WUL_bond_C9_O10        1.3430e-01   3.4418e+05
+#define    WUL_bond_O10_C17        1.4390e-01   2.5230e+05
+#define    WUL_bond_C17_C1        1.5350e-01   2.5363e+05
+#define    WUL_bond_C17_H12        1.0930e-01   2.8108e+05
+#define    WUL_bond_C17_C26        1.5350e-01   2.5363e+05
+#define    WUL_bond_C1_N1        1.4600e-01   2.7665e+05
+#define    WUL_bond_C1_C10        1.5080e-01   2.7472e+05
+#define    WUL_bond_C1_H06        1.0930e-01   2.8108e+05
+#define    WUL_bond_N1_C16        1.3450e-01   4.0016e+05
+#define    WUL_bond_N1_H03        1.0090e-01   3.4326e+05
+#define    WUL_bond_C16_C8        1.5080e-01   2.7472e+05
+#define    WUL_bond_C16_O8        1.2140e-01   5.4225e+05
+#define    WUL_bond_C8_C02        1.5350e-01   2.5363e+05
+#define    WUL_bond_C8_H10        1.0920e-01   2.8225e+05
+#define    WUL_bond_C8_H17        1.0920e-01   2.8225e+05
+#define    WUL_bond_C02_C15        1.5350e-01   2.5363e+05
+#define    WUL_bond_C02_H35        1.0920e-01   2.8225e+05
+#define    WUL_bond_C02_H71        1.0920e-01   2.8225e+05
+#define    WUL_bond_C15_C7        1.5350e-01   2.5363e+05
+#define    WUL_bond_C15_H66        1.0920e-01   2.8225e+05
+#define    WUL_bond_C15_H70        1.0920e-01   2.8225e+05
+#define    WUL_bond_C7_C01        1.5350e-01   2.5363e+05
+#define    WUL_bond_C7_H9        1.0920e-01   2.8225e+05
+#define    WUL_bond_C7_H53        1.0920e-01   2.8225e+05
+#define    WUL_bond_C01_C14        1.5350e-01   2.5363e+05
+#define    WUL_bond_C01_H02        1.0920e-01   2.8225e+05
+#define    WUL_bond_C01_H69        1.0920e-01   2.8225e+05
+#define    WUL_bond_C14_C6        1.5350e-01   2.5363e+05
+#define    WUL_bond_C14_H39        1.0920e-01   2.8225e+05
+#define    WUL_bond_C14_H68        1.0920e-01   2.8225e+05
+#define    WUL_bond_C6_N4        1.4600e-01   2.7665e+05
+#define    WUL_bond_C6_H16        1.0930e-01   2.8108e+05
+#define    WUL_bond_C6_H67        1.0930e-01   2.8108e+05
+#define    WUL_bond_N4_C13        1.3450e-01   4.0016e+05
+#define    WUL_bond_N4_H34        1.0090e-01   3.4326e+05
+#define    WUL_bond_C13_C5        1.5080e-01   2.7472e+05
+#define    WUL_bond_C13_O5        1.2140e-01   5.4225e+05
+#define    WUL_bond_C5_OA        1.4390e-01   2.5230e+05
+#define    WUL_bond_C5_C20        1.5350e-01   2.5363e+05
+#define    WUL_bond_C5_H09        1.0930e-01   2.8108e+05
+#define    WUL_bond_OA_C12        1.3430e-01   3.4418e+05
+#define    WUL_bond_C12_C4        1.5080e-01   2.7472e+05
+#define    WUL_bond_C12_O4        1.2140e-01   5.4225e+05
+#define    WUL_bond_C4_N3        1.4600e-01   2.7665e+05
+#define    WUL_bond_C4_C19        1.5350e-01   2.5363e+05
+#define    WUL_bond_C4_H08        1.0930e-01   2.8108e+05
+#define    WUL_bond_N3_CN        1.3450e-01   4.0016e+05
+#define    WUL_bond_N3_H04        1.0090e-01   3.4326e+05
+#define    WUL_bond_CN_CM        1.5080e-01   2.7472e+05
+#define    WUL_bond_CN_ON        1.2140e-01   5.4225e+05
+#define    WUL_bond_CM_H33        1.0920e-01   2.8225e+05
+#define    WUL_bond_CM_H48        1.0920e-01   2.8225e+05
+#define    WUL_bond_CM_H62        1.0920e-01   2.8225e+05
+#define    WUL_bond_C19_C03        1.5080e-01   2.7472e+05
+#define    WUL_bond_C19_H14        1.0920e-01   2.8225e+05
+#define    WUL_bond_C19_H21        1.0920e-01   2.8225e+05
+#define    WUL_bond_C03_C11        1.3240e-01   4.9346e+05
+#define    WUL_bond_C03_H20        1.0870e-01   2.8811e+05
+#define    WUL_bond_C11_C3        1.5080e-01   2.7472e+05
+#define    WUL_bond_C11_H13        1.0870e-01   2.8811e+05
+#define    WUL_bond_C3_O01        1.4390e-01   2.5230e+05
+#define    WUL_bond_C3_H01        1.0930e-01   2.8108e+05
+#define    WUL_bond_C3_H07        1.0930e-01   2.8108e+05
+#define    WUL_bond_O01_C10        1.3430e-01   3.4418e+05
+#define    WUL_bond_C10_O2        1.2140e-01   5.4225e+05
+#define    WUL_bond_C20_C27        1.5130e-01   2.7070e+05
+#define    WUL_bond_C20_H15        1.0920e-01   2.8225e+05
+#define    WUL_bond_C20_H38        1.0920e-01   2.8225e+05
+#define    WUL_bond_C27_C30        1.3870e-01   4.0033e+05
+#define    WUL_bond_C27_C32        1.3870e-01   4.0033e+05
+#define    WUL_bond_C30_CE1        1.3870e-01   4.0033e+05
+#define    WUL_bond_C30_H24        1.0870e-01   2.8811e+05
+#define    WUL_bond_CE1_CZ        1.3870e-01   4.0033e+05
+#define    WUL_bond_CE1_H28        1.0870e-01   2.8811e+05
+#define    WUL_bond_CZ_CE2        1.3870e-01   4.0033e+05
+#define    WUL_bond_CZ_H30        1.0870e-01   2.8811e+05
+#define    WUL_bond_CE2_C32        1.3870e-01   4.0033e+05
+#define    WUL_bond_CE2_H29        1.0870e-01   2.8811e+05
+#define    WUL_bond_C32_H27        1.0870e-01   2.8811e+05
+#define    WUL_bond_C26_C31        1.5350e-01   2.5363e+05
+#define    WUL_bond_C26_H19        1.0920e-01   2.8225e+05
+#define    WUL_bond_C26_C29        1.5350e-01   2.5363e+05
+#define    WUL_bond_C31_H26        1.0920e-01   2.8225e+05
+#define    WUL_bond_C31_H46        1.0920e-01   2.8225e+05
+#define    WUL_bond_C31_H60        1.0920e-01   2.8225e+05
+#define    WUL_bond_C29_H23        1.0920e-01   2.8225e+05
+#define    WUL_bond_C29_H44        1.0920e-01   2.8225e+05
+#define    WUL_bond_C29_H58        1.0920e-01   2.8225e+05
+#define    WUL_angle_N_C_O  1.2203e+02   6.3455e+02
+#define    WUL_angle_N_C_CH3  1.1515e+02   5.6785e+02
+#define    WUL_angle_N_CA_CB  1.1213e+02   5.5103e+02
+#define    WUL_angle_N_CA_H05  1.0932e+02   4.1689e+02
+#define    WUL_angle_N_CA_C9  1.1156e+02   5.5789e+02
+#define    WUL_angle_C_N_H8  1.1846e+02   4.1179e+02
+#define    WUL_angle_C_N_CA  1.2135e+02   5.3488e+02
+#define    WUL_angle_C_CH3_H31  1.0968e+02   3.9497e+02
+#define    WUL_angle_C_CH3_H47  1.0968e+02   3.9497e+02
+#define    WUL_angle_C_CH3_H61  1.0968e+02   3.9497e+02
+#define    WUL_angle_O_C_CH3  1.2311e+02   5.6928e+02
+#define    WUL_angle_H31_CH3_H47  1.0835e+02   3.2995e+02
+#define    WUL_angle_H31_CH3_H61  1.0835e+02   3.2995e+02
+#define    WUL_angle_H47_CH3_H61  1.0835e+02   3.2995e+02
+#define    WUL_angle_H8_N_CA  1.1678e+02   3.8526e+02
+#define    WUL_angle_CA_CB_CG  1.1063e+02   5.2894e+02
+#define    WUL_angle_CA_CB_OH  1.0943e+02   5.6668e+02
+#define    WUL_angle_CA_CB_H11  1.1007e+02   3.8794e+02
+#define    WUL_angle_CA_C9_O1  1.2311e+02   5.6928e+02
+#define    WUL_angle_CA_C9_O10  1.1196e+02   5.7957e+02
+#define    WUL_angle_CB_CA_H05  1.1007e+02   3.8794e+02
+#define    WUL_angle_CB_CA_C9  1.1053e+02   5.3379e+02
+#define    WUL_angle_CB_CG_CD1  1.1063e+02   5.2894e+02
+#define    WUL_angle_CB_CG_CD2  1.1063e+02   5.2894e+02
+#define    WUL_angle_CB_CG_H18  1.1005e+02   3.8802e+02
+#define    WUL_angle_CB_OH_H32  1.0816e+02   3.9405e+02
+#define    WUL_angle_CG_CB_OH  1.0943e+02   5.6668e+02
+#define    WUL_angle_CG_CB_H11  1.1007e+02   3.8794e+02
+#define    WUL_angle_CG_CD1_H22  1.1005e+02   3.8802e+02
+#define    WUL_angle_CG_CD1_H43  1.1005e+02   3.8802e+02
+#define    WUL_angle_CG_CD1_H57  1.1005e+02   3.8802e+02
+#define    WUL_angle_CG_CD2_H25  1.1005e+02   3.8802e+02
+#define    WUL_angle_CG_CD2_H45  1.1005e+02   3.8802e+02
+#define    WUL_angle_CG_CD2_H59  1.1005e+02   3.8802e+02
+#define    WUL_angle_CD1_CG_CD2  1.1063e+02   5.2894e+02
+#define    WUL_angle_CD1_CG_H18  1.1005e+02   3.8802e+02
+#define    WUL_angle_H22_CD1_H43  1.0835e+02   3.2995e+02
+#define    WUL_angle_H22_CD1_H57  1.0835e+02   3.2995e+02
+#define    WUL_angle_H43_CD1_H57  1.0835e+02   3.2995e+02
+#define    WUL_angle_CD2_CG_H18  1.1005e+02   3.8802e+02
+#define    WUL_angle_H25_CD2_H45  1.0835e+02   3.2995e+02
+#define    WUL_angle_H25_CD2_H59  1.0835e+02   3.2995e+02
+#define    WUL_angle_H45_CD2_H59  1.0835e+02   3.2995e+02
+#define    WUL_angle_OH_CB_H11  1.0988e+02   4.2652e+02
+#define    WUL_angle_H05_CA_C9  1.0766e+02   3.9857e+02
+#define    WUL_angle_C9_O10_C17  1.1514e+02   5.3246e+02
+#define    WUL_angle_O1_C9_O10  1.2333e+02   6.3538e+02
+#define    WUL_angle_O10_C17_C1  1.0842e+02   5.6718e+02
+#define    WUL_angle_O10_C17_H12  1.0882e+02   4.2543e+02
+#define    WUL_angle_O10_C17_C26  1.0842e+02   5.6718e+02
+#define    WUL_angle_C17_C1_N1  1.1213e+02   5.5103e+02
+#define    WUL_angle_C17_C1_C10  1.1053e+02   5.3379e+02
+#define    WUL_angle_C17_C1_H06  1.1007e+02   3.8794e+02
+#define    WUL_angle_C17_C26_C31  1.1063e+02   5.2894e+02
+#define    WUL_angle_C17_C26_H19  1.1005e+02   3.8802e+02
+#define    WUL_angle_C17_C26_C29  1.1063e+02   5.2894e+02
+#define    WUL_angle_C1_C17_H12  1.1007e+02   3.8794e+02
+#define    WUL_angle_C1_C17_C26  1.1063e+02   5.2894e+02
+#define    WUL_angle_C1_N1_C16  1.2135e+02   5.3488e+02
+#define    WUL_angle_C1_N1_H03  1.1678e+02   3.8526e+02
+#define    WUL_angle_C1_C10_O01  1.1196e+02   5.7957e+02
+#define    WUL_angle_C1_C10_O2  1.2311e+02   5.6928e+02
+#define    WUL_angle_N1_C1_C10  1.1156e+02   5.5789e+02
+#define    WUL_angle_N1_C1_H06  1.0932e+02   4.1689e+02
+#define    WUL_angle_N1_C16_C8  1.1515e+02   5.6785e+02
+#define    WUL_angle_N1_C16_O8  1.2203e+02   6.3455e+02
+#define    WUL_angle_C16_N1_H03  1.1846e+02   4.1179e+02
+#define    WUL_angle_C16_C8_C02  1.1053e+02   5.3379e+02
+#define    WUL_angle_C16_C8_H10  1.0968e+02   3.9497e+02
+#define    WUL_angle_C16_C8_H17  1.0968e+02   3.9497e+02
+#define    WUL_angle_C8_C16_O8  1.2311e+02   5.6928e+02
+#define    WUL_angle_C8_C02_C15  1.1063e+02   5.2894e+02
+#define    WUL_angle_C8_C02_H35  1.1005e+02   3.8802e+02
+#define    WUL_angle_C8_C02_H71  1.1005e+02   3.8802e+02
+#define    WUL_angle_C02_C8_H10  1.1005e+02   3.8802e+02
+#define    WUL_angle_C02_C8_H17  1.1005e+02   3.8802e+02
+#define    WUL_angle_C02_C15_C7  1.1063e+02   5.2894e+02
+#define    WUL_angle_C02_C15_H66  1.1005e+02   3.8802e+02
+#define    WUL_angle_C02_C15_H70  1.1005e+02   3.8802e+02
+#define    WUL_angle_C15_C02_H35  1.1005e+02   3.8802e+02
+#define    WUL_angle_C15_C02_H71  1.1005e+02   3.8802e+02
+#define    WUL_angle_C15_C7_C01  1.1063e+02   5.2894e+02
+#define    WUL_angle_C15_C7_H9  1.1005e+02   3.8802e+02
+#define    WUL_angle_C15_C7_H53  1.1005e+02   3.8802e+02
+#define    WUL_angle_C7_C15_H66  1.1005e+02   3.8802e+02
+#define    WUL_angle_C7_C15_H70  1.1005e+02   3.8802e+02
+#define    WUL_angle_C7_C01_C14  1.1063e+02   5.2894e+02
+#define    WUL_angle_C7_C01_H02  1.1005e+02   3.8802e+02
+#define    WUL_angle_C7_C01_H69  1.1005e+02   3.8802e+02
+#define    WUL_angle_C01_C7_H9  1.1005e+02   3.8802e+02
+#define    WUL_angle_C01_C7_H53  1.1005e+02   3.8802e+02
+#define    WUL_angle_C01_C14_C6  1.1063e+02   5.2894e+02
+#define    WUL_angle_C01_C14_H39  1.1005e+02   3.8802e+02
+#define    WUL_angle_C01_C14_H68  1.1005e+02   3.8802e+02
+#define    WUL_angle_C14_C01_H02  1.1005e+02   3.8802e+02
+#define    WUL_angle_C14_C01_H69  1.1005e+02   3.8802e+02
+#define    WUL_angle_C14_C6_N4  1.1213e+02   5.5103e+02
+#define    WUL_angle_C14_C6_H16  1.1007e+02   3.8794e+02
+#define    WUL_angle_C14_C6_H67  1.1007e+02   3.8794e+02
+#define    WUL_angle_C6_C14_H39  1.1005e+02   3.8802e+02
+#define    WUL_angle_C6_C14_H68  1.1005e+02   3.8802e+02
+#define    WUL_angle_C6_N4_C13  1.2135e+02   5.3488e+02
+#define    WUL_angle_C6_N4_H34  1.1678e+02   3.8526e+02
+#define    WUL_angle_N4_C6_H16  1.0932e+02   4.1689e+02
+#define    WUL_angle_N4_C6_H67  1.0932e+02   4.1689e+02
+#define    WUL_angle_N4_C13_C5  1.1515e+02   5.6785e+02
+#define    WUL_angle_N4_C13_O5  1.2203e+02   6.3455e+02
+#define    WUL_angle_C13_N4_H34  1.1846e+02   4.1179e+02
+#define    WUL_angle_C13_C5_OA  1.0982e+02   5.6928e+02
+#define    WUL_angle_C13_C5_C20  1.1053e+02   5.3379e+02
+#define    WUL_angle_C13_C5_H09  1.0766e+02   3.9857e+02
+#define    WUL_angle_C5_C13_O5  1.2311e+02   5.6928e+02
+#define    WUL_angle_C5_OA_C12  1.1514e+02   5.3246e+02
+#define    WUL_angle_C5_C20_C27  1.1209e+02   5.2928e+02
+#define    WUL_angle_C5_C20_H15  1.1005e+02   3.8802e+02
+#define    WUL_angle_C5_C20_H38  1.1005e+02   3.8802e+02
+#define    WUL_angle_OA_C5_C20  1.0842e+02   5.6718e+02
+#define    WUL_angle_OA_C5_H09  1.0882e+02   4.2543e+02
+#define    WUL_angle_OA_C12_C4  1.1196e+02   5.7957e+02
+#define    WUL_angle_OA_C12_O4  1.2333e+02   6.3538e+02
+#define    WUL_angle_C12_C4_N3  1.1156e+02   5.5789e+02
+#define    WUL_angle_C12_C4_C19  1.1053e+02   5.3379e+02
+#define    WUL_angle_C12_C4_H08  1.0766e+02   3.9857e+02
+#define    WUL_angle_C4_C12_O4  1.2311e+02   5.6928e+02
+#define    WUL_angle_C4_N3_CN  1.2135e+02   5.3488e+02
+#define    WUL_angle_C4_N3_H04  1.1678e+02   3.8526e+02
+#define    WUL_angle_C4_C19_C03  1.1144e+02   5.3162e+02
+#define    WUL_angle_C4_C19_H14  1.1005e+02   3.8802e+02
+#define    WUL_angle_C4_C19_H21  1.1005e+02   3.8802e+02
+#define    WUL_angle_N3_C4_C19  1.1213e+02   5.5103e+02
+#define    WUL_angle_N3_C4_H08  1.0932e+02   4.1689e+02
+#define    WUL_angle_N3_CN_CM  1.1515e+02   5.6785e+02
+#define    WUL_angle_N3_CN_ON  1.2203e+02   6.3455e+02
+#define    WUL_angle_CN_N3_H04  1.1846e+02   4.1179e+02
+#define    WUL_angle_CN_CM_H33  1.0968e+02   3.9497e+02
+#define    WUL_angle_CN_CM_H48  1.0968e+02   3.9497e+02
+#define    WUL_angle_CN_CM_H62  1.0968e+02   3.9497e+02
+#define    WUL_angle_CM_CN_ON  1.2311e+02   5.6928e+02
+#define    WUL_angle_H33_CM_H48  1.0835e+02   3.2995e+02
+#define    WUL_angle_H33_CM_H62  1.0835e+02   3.2995e+02
+#define    WUL_angle_H48_CM_H62  1.0835e+02   3.2995e+02
+#define    WUL_angle_C19_C4_H08  1.1007e+02   3.8794e+02
+#define    WUL_angle_C19_C03_C11  1.2342e+02   5.3831e+02
+#define    WUL_angle_C19_C03_H20  1.1730e+02   3.8208e+02
+#define    WUL_angle_C03_C19_H14  1.1049e+02   3.9355e+02
+#define    WUL_angle_C03_C19_H21  1.1049e+02   3.9355e+02
+#define    WUL_angle_C03_C11_C3  1.2342e+02   5.3831e+02
+#define    WUL_angle_C03_C11_H13  1.2094e+02   4.1873e+02
+#define    WUL_angle_C11_C03_H20  1.2094e+02   4.1873e+02
+#define    WUL_angle_C11_C3_O01  1.0848e+02   5.7279e+02
+#define    WUL_angle_C11_C3_H01  1.1046e+02   3.9355e+02
+#define    WUL_angle_C11_C3_H07  1.1046e+02   3.9355e+02
+#define    WUL_angle_C3_C11_H13  1.1730e+02   3.8208e+02
+#define    WUL_angle_C3_O01_C10  1.1514e+02   5.3246e+02
+#define    WUL_angle_O01_C3_H01  1.0882e+02   4.2543e+02
+#define    WUL_angle_O01_C3_H07  1.0882e+02   4.2543e+02
+#define    WUL_angle_O01_C10_O2  1.2333e+02   6.3538e+02
+#define    WUL_angle_C10_C1_H06  1.0766e+02   3.9857e+02
+#define    WUL_angle_H01_C3_H07  1.0955e+02   3.2786e+02
+#define    WUL_angle_H14_C19_H21  1.0835e+02   3.2995e+02
+#define    WUL_angle_C20_C5_H09  1.1007e+02   3.8794e+02
+#define    WUL_angle_C20_C27_C30  1.2063e+02   5.3421e+02
+#define    WUL_angle_C20_C27_C32  1.2063e+02   5.3421e+02
+#define    WUL_angle_C27_C20_H15  1.1015e+02   3.9296e+02
+#define    WUL_angle_C27_C20_H38  1.1015e+02   3.9296e+02
+#define    WUL_angle_C27_C30_CE1  1.1997e+02   5.6216e+02
+#define    WUL_angle_C27_C30_H24  1.2001e+02   4.0551e+02
+#define    WUL_angle_C27_C32_CE2  1.1997e+02   5.6216e+02
+#define    WUL_angle_C27_C32_H27  1.2001e+02   4.0551e+02
+#define    WUL_angle_C30_C27_C32  1.1997e+02   5.6216e+02
+#define    WUL_angle_C30_CE1_CZ  1.1997e+02   5.6216e+02
+#define    WUL_angle_C30_CE1_H28  1.2001e+02   4.0551e+02
+#define    WUL_angle_CE1_C30_H24  1.2001e+02   4.0551e+02
+#define    WUL_angle_CE1_CZ_CE2  1.1997e+02   5.6216e+02
+#define    WUL_angle_CE1_CZ_H30  1.2001e+02   4.0551e+02
+#define    WUL_angle_CZ_CE1_H28  1.2001e+02   4.0551e+02
+#define    WUL_angle_CZ_CE2_C32  1.1997e+02   5.6216e+02
+#define    WUL_angle_CZ_CE2_H29  1.2001e+02   4.0551e+02
+#define    WUL_angle_CE2_CZ_H30  1.2001e+02   4.0551e+02
+#define    WUL_angle_CE2_C32_H27  1.2001e+02   4.0551e+02
+#define    WUL_angle_C32_CE2_H29  1.2001e+02   4.0551e+02
+#define    WUL_angle_H15_C20_H38  1.0835e+02   3.2995e+02
+#define    WUL_angle_H16_C6_H67  1.0955e+02   3.2786e+02
+#define    WUL_angle_H39_C14_H68  1.0835e+02   3.2995e+02
+#define    WUL_angle_H02_C01_H69  1.0835e+02   3.2995e+02
+#define    WUL_angle_H9_C7_H53  1.0835e+02   3.2995e+02
+#define    WUL_angle_H66_C15_H70  1.0835e+02   3.2995e+02
+#define    WUL_angle_H35_C02_H71  1.0835e+02   3.2995e+02
+#define    WUL_angle_H10_C8_H17  1.0835e+02   3.2995e+02
+#define    WUL_angle_H12_C17_C26  1.1007e+02   3.8794e+02
+#define    WUL_angle_C26_C31_H26  1.1005e+02   3.8802e+02
+#define    WUL_angle_C26_C31_H46  1.1005e+02   3.8802e+02
+#define    WUL_angle_C26_C31_H60  1.1005e+02   3.8802e+02
+#define    WUL_angle_C26_C29_H23  1.1005e+02   3.8802e+02
+#define    WUL_angle_C26_C29_H44  1.1005e+02   3.8802e+02
+#define    WUL_angle_C26_C29_H58  1.1005e+02   3.8802e+02
+#define    WUL_angle_C31_C26_H19  1.1005e+02   3.8802e+02
+#define    WUL_angle_C31_C26_C29  1.1063e+02   5.2894e+02
+#define    WUL_angle_H26_C31_H46  1.0835e+02   3.2995e+02
+#define    WUL_angle_H26_C31_H60  1.0835e+02   3.2995e+02
+#define    WUL_angle_H46_C31_H60  1.0835e+02   3.2995e+02
+#define    WUL_angle_H19_C26_C29  1.1005e+02   3.8802e+02
+#define    WUL_angle_H23_C29_H44  1.0835e+02   3.2995e+02
+#define    WUL_angle_H23_C29_H58  1.0835e+02   3.2995e+02
+#define    WUL_angle_H44_C29_H58  1.0835e+02   3.2995e+02
+#define    WUL_torsion_N_C_CH3_H31     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_N_C_CH3_H47     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_N_C_CH3_H61     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_N_CA_CB_CG     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_N_CA_CB_OH     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_N_CA_CB_H11     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_N_CA_C9_O1     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_N_CA_C9_O10     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C_N_CA_CB     2.84512     -4.10032     16.73600      2.51040    -16.73600      0.00000
+#define    WUL_torsion_C_N_CA_H05     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C_N_CA_C9    10.46000     -3.34720     -7.11280      0.00000      0.00000      0.00000
+#define    WUL_torsion_O_C_CH3_H31     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    WUL_torsion_O_C_CH3_H47     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    WUL_torsion_O_C_CH3_H61     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    WUL_torsion_H8_N_C_O    29.28800     -8.36800    -20.92000      0.00000      0.00000      0.00000
+#define    WUL_torsion_H8_N_C_CH3    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    WUL_torsion_H8_N_CA_CB     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_H8_N_CA_H05     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_H8_N_CA_C9     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_CA_N_C_O    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    WUL_torsion_CA_N_C_CH3    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    WUL_torsion_CA_CB_CG_CD1     3.68192      3.09616     -2.09200     -3.01248      0.00000      0.00000
+#define    WUL_torsion_CA_CB_CG_CD2     3.68192      3.09616     -2.09200     -3.01248      0.00000      0.00000
+#define    WUL_torsion_CA_CB_CG_H18     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_CA_CB_OH_H32     1.71544      0.96232      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_CA_C9_O10_C17    22.59360      0.00000    -22.59360      0.00000      0.00000      0.00000
+#define    WUL_torsion_CB_CA_C9_O1     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_CB_CA_C9_O10     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_CB_CG_CD1_H22     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_CB_CG_CD1_H43     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_CB_CG_CD1_H57     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_CB_CG_CD2_H25     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_CB_CG_CD2_H45     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_CB_CG_CD2_H59     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_CG_CB_CA_H05     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_CG_CB_CA_C9     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_CG_CB_OH_H32     1.71544      0.96232      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_CD1_CG_CB_OH     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_CD1_CG_CB_H11     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_CD1_CG_CD2_H25     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_CD1_CG_CD2_H45     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_CD1_CG_CD2_H59     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_H22_CD1_CG_CD2     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_H22_CD1_CG_H18     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H43_CD1_CG_CD2     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_H43_CD1_CG_H18     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H57_CD1_CG_CD2     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_H57_CD1_CG_H18     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_CD2_CG_CB_OH     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_CD2_CG_CB_H11     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_H25_CD2_CG_H18     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H45_CD2_CG_H18     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H59_CD2_CG_H18     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H18_CG_CB_OH     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_H18_CG_CB_H11     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_OH_CB_CA_H05     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_OH_CB_CA_C9     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_H32_OH_CB_H11     0.69733      2.09200      0.00000     -2.78933      0.00000      0.00000
+#define    WUL_torsion_H11_CB_CA_H05     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_H11_CB_CA_C9     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_H05_CA_C9_O1     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    WUL_torsion_H05_CA_C9_O10     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C9_O10_C17_C1     4.94967      8.15462      0.00000     -6.40989      0.00000      0.00000
+#define    WUL_torsion_C9_O10_C17_H12     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    WUL_torsion_C9_O10_C17_C26     4.94967      8.15462      0.00000     -6.40989      0.00000      0.00000
+#define    WUL_torsion_O1_C9_O10_C17    28.45120      5.85760    -22.59360      0.00000      0.00000      0.00000
+#define    WUL_torsion_O10_C17_C1_N1     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_O10_C17_C1_C10     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_O10_C17_C1_H06     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_O10_C17_C26_C31     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_O10_C17_C26_H19     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_O10_C17_C26_C29     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_C17_C1_N1_C16     2.84512     -4.10032     16.73600      2.51040    -16.73600      0.00000
+#define    WUL_torsion_C17_C1_N1_H03     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C17_C1_C10_O01     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C17_C1_C10_O2     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C17_C26_C31_H26     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C17_C26_C31_H46     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C17_C26_C31_H60     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C17_C26_C29_H23     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C17_C26_C29_H44     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C17_C26_C29_H58     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C1_C17_C26_C31     3.68192      3.09616     -2.09200     -3.01248      0.00000      0.00000
+#define    WUL_torsion_C1_C17_C26_H19     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C1_C17_C26_C29     3.68192      3.09616     -2.09200     -3.01248      0.00000      0.00000
+#define    WUL_torsion_C1_N1_C16_C8    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C1_N1_C16_O8    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C1_C10_O01_C3    22.59360      0.00000    -22.59360      0.00000      0.00000      0.00000
+#define    WUL_torsion_N1_C1_C17_H12     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_N1_C1_C17_C26     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_N1_C1_C10_O01     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_N1_C1_C10_O2     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_N1_C16_C8_C02     0.83680      0.00000     -2.76144      0.00000      3.34720      0.00000
+#define    WUL_torsion_N1_C16_C8_H10     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_N1_C16_C8_H17     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C16_N1_C1_C10    10.46000     -3.34720     -7.11280      0.00000      0.00000      0.00000
+#define    WUL_torsion_C16_N1_C1_H06     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C16_C8_C02_C15     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_C16_C8_C02_H35     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_C16_C8_C02_H71     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_C8_C16_N1_H03    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C8_C02_C15_C7     3.68192      3.09616     -2.09200     -3.01248      0.00000      0.00000
+#define    WUL_torsion_C8_C02_C15_H66     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C8_C02_C15_H70     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C02_C8_C16_O8     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C02_C15_C7_C01     3.68192      3.09616     -2.09200     -3.01248      0.00000      0.00000
+#define    WUL_torsion_C02_C15_C7_H9     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C02_C15_C7_H53     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C15_C02_C8_H10     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C15_C02_C8_H17     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C15_C7_C01_C14     3.68192      3.09616     -2.09200     -3.01248      0.00000      0.00000
+#define    WUL_torsion_C15_C7_C01_H02     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C15_C7_C01_H69     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C7_C15_C02_H35     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C7_C15_C02_H71     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C7_C01_C14_C6     3.68192      3.09616     -2.09200     -3.01248      0.00000      0.00000
+#define    WUL_torsion_C7_C01_C14_H39     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C7_C01_C14_H68     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C01_C7_C15_H66     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C01_C7_C15_H70     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C01_C14_C6_N4     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_C01_C14_C6_H16     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_C01_C14_C6_H67     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_C14_C01_C7_H9     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C14_C01_C7_H53     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C14_C6_N4_C13     2.84512     -4.10032     16.73600      2.51040    -16.73600      0.00000
+#define    WUL_torsion_C14_C6_N4_H34     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C6_C14_C01_H02     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C6_C14_C01_H69     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C6_N4_C13_C5    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C6_N4_C13_O5    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    WUL_torsion_N4_C6_C14_H39     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_N4_C6_C14_H68     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_N4_C13_C5_OA     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_N4_C13_C5_C20     0.83680      0.00000     -2.76144      0.00000      3.34720      0.00000
+#define    WUL_torsion_N4_C13_C5_H09     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C13_N4_C6_H16     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C13_N4_C6_H67     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C13_C5_OA_C12     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    WUL_torsion_C13_C5_C20_C27     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_C13_C5_C20_H15     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_C13_C5_C20_H38     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_C5_C13_N4_H34    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C5_OA_C12_C4    22.59360      0.00000    -22.59360      0.00000      0.00000      0.00000
+#define    WUL_torsion_C5_OA_C12_O4    28.45120      5.85760    -22.59360      0.00000      0.00000      0.00000
+#define    WUL_torsion_C5_C20_C27_C30     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C5_C20_C27_C32     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_OA_C5_C13_O5     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_OA_C5_C20_C27     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_OA_C5_C20_H15     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_OA_C5_C20_H38     1.04600     -1.04600      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_OA_C12_C4_N3     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_OA_C12_C4_C19     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_OA_C12_C4_H08     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C12_OA_C5_C20     4.94967      8.15462      0.00000     -6.40989      0.00000      0.00000
+#define    WUL_torsion_C12_OA_C5_H09     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    WUL_torsion_C12_C4_N3_CN    10.46000     -3.34720     -7.11280      0.00000      0.00000      0.00000
+#define    WUL_torsion_C12_C4_N3_H04     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C12_C4_C19_C03     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_C12_C4_C19_H14     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_C12_C4_C19_H21     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_C4_N3_CN_CM    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C4_N3_CN_ON    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C4_C19_C03_C11     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C4_C19_C03_H20     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_N3_C4_C12_O4     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_N3_C4_C19_C03     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_N3_C4_C19_H14     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_N3_C4_C19_H21     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_N3_CN_CM_H33     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_N3_CN_CM_H48     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_N3_CN_CM_H62     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_CN_N3_C4_C19     2.84512     -4.10032     16.73600      2.51040    -16.73600      0.00000
+#define    WUL_torsion_CN_N3_C4_H08     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_CM_CN_N3_H04    20.92000      0.00000    -20.92000      0.00000      0.00000      0.00000
+#define    WUL_torsion_H33_CM_CN_ON     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    WUL_torsion_H48_CM_CN_ON     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    WUL_torsion_H62_CM_CN_ON     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    WUL_torsion_ON_CN_N3_H04    29.28800     -8.36800    -20.92000      0.00000      0.00000      0.00000
+#define    WUL_torsion_H04_N3_C4_C19     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_H04_N3_C4_H08     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C19_C4_C12_O4     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C19_C03_C11_C3    63.59680      7.94960    -55.64720      0.00000      0.00000      0.00000
+#define    WUL_torsion_C19_C03_C11_H13    55.64720      0.00000    -55.64720      0.00000      0.00000      0.00000
+#define    WUL_torsion_C03_C19_C4_H08     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_C03_C11_C3_O01     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C03_C11_C3_H01     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C03_C11_C3_H07     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C11_C03_C19_H14     6.40152     -9.58136      0.00000      6.35968      0.00000      0.00000
+#define    WUL_torsion_C11_C03_C19_H21     6.40152     -9.58136      0.00000      6.35968      0.00000      0.00000
+#define    WUL_torsion_C11_C3_O01_C10     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    WUL_torsion_C3_C11_C03_H20    55.64720      0.00000    -55.64720      0.00000      0.00000      0.00000
+#define    WUL_torsion_C3_O01_C10_O2    28.45120      5.85760    -22.59360      0.00000      0.00000      0.00000
+#define    WUL_torsion_O01_C3_C11_H13     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_O01_C10_C1_H06     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C10_C1_C17_H12     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_C10_C1_C17_C26     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_C10_C1_N1_H03     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C10_O01_C3_H01     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    WUL_torsion_C10_O01_C3_H07     1.60387      4.81160      0.00000     -6.41547      0.00000      0.00000
+#define    WUL_torsion_O2_C10_C1_H06     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    WUL_torsion_H01_C3_C11_H13     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_H07_C3_C11_H13     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_H13_C11_C03_H20    55.64720      0.00000    -55.64720      0.00000      0.00000      0.00000
+#define    WUL_torsion_H20_C03_C19_H14     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_H20_C03_C19_H21     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_H14_C19_C4_H08     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_H21_C19_C4_H08     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_H08_C4_C12_O4     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    WUL_torsion_C20_C5_C13_O5     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C20_C27_C30_CE1    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_C20_C27_C30_H24    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_C20_C27_C32_CE2    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_C20_C27_C32_H27    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_C27_C20_C5_H09     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_C27_C30_CE1_CZ    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_C27_C30_CE1_H28    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_C27_C32_CE2_CZ    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_C27_C32_CE2_H29    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_C30_C27_C20_H15     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C30_C27_C20_H38     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C30_C27_C32_CE2    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_C30_C27_C32_H27    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_C30_CE1_CZ_CE2    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_C30_CE1_CZ_H30    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_CE1_C30_C27_C32    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_CE1_CZ_CE2_C32    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_CE1_CZ_CE2_H29    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_CZ_CE1_C30_H24    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_CZ_CE2_C32_H27    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_CE2_CZ_CE1_H28    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_C32_C27_C20_H15     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C32_C27_C20_H38     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_C32_C27_C30_H24    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_C32_CE2_CZ_H30    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_H27_C32_CE2_H29    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_H29_CE2_CZ_H30    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_H30_CZ_CE1_H28    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_H28_CE1_C30_H24    30.33400      0.00000    -30.33400      0.00000      0.00000      0.00000
+#define    WUL_torsion_H15_C20_C5_H09     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_H38_C20_C5_H09     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_H09_C5_C13_O5     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    WUL_torsion_O5_C13_N4_H34    29.28800     -8.36800    -20.92000      0.00000      0.00000      0.00000
+#define    WUL_torsion_H34_N4_C6_H16     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_H34_N4_C6_H67     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_H16_C6_C14_H39     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_H16_C6_C14_H68     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_H67_C6_C14_H39     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_H67_C6_C14_H68     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_H39_C14_C01_H02     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H39_C14_C01_H69     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H68_C14_C01_H02     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H68_C14_C01_H69     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H02_C01_C7_H9     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H02_C01_C7_H53     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H69_C01_C7_H9     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H69_C01_C7_H53     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H9_C7_C15_H66     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H9_C7_C15_H70     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H53_C7_C15_H66     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H53_C7_C15_H70     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H66_C15_C02_H35     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H66_C15_C02_H71     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H70_C15_C02_H35     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H70_C15_C02_H71     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H35_C02_C8_H10     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H35_C02_C8_H17     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H71_C02_C8_H10     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H71_C02_C8_H17     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H10_C8_C16_O8     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    WUL_torsion_H17_C8_C16_O8     3.68192     -4.35136      0.00000      1.33888      0.00000      0.00000
+#define    WUL_torsion_O8_C16_N1_H03    29.28800     -8.36800    -20.92000      0.00000      0.00000      0.00000
+#define    WUL_torsion_H03_N1_C1_H06     0.00000      0.00000      0.00000      0.00000      0.00000      0.00000
+#define    WUL_torsion_H06_C1_C17_H12     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_H06_C1_C17_C26     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_H12_C17_C26_C31     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_H12_C17_C26_H19     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_H12_C17_C26_C29     0.65084      1.95253      0.00000     -2.60338      0.00000      0.00000
+#define    WUL_torsion_C31_C26_C29_H23     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C31_C26_C29_H44     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_C31_C26_C29_H58     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_H26_C31_C26_H19     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H26_C31_C26_C29     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_H46_C31_C26_H19     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H46_C31_C26_C29     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_H60_C31_C26_H19     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H60_C31_C26_C29     0.66944      2.00832      0.00000     -2.67776      0.00000      0.00000
+#define    WUL_torsion_H19_C26_C29_H23     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H19_C26_C29_H44     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_torsion_H19_C26_C29_H58     0.62760      1.88280      0.00000     -2.51040      0.00000      0.00000
+#define    WUL_Improper_CH3_N_C_O      180.00     43.93200            2
+#define    WUL_Improper_H8_N_CA_C      180.00      4.60240            2
+#define    WUL_Improper_CA_O1_C9_O10      180.00     43.93200            2
+#define    WUL_Improper_C1_O2_C10_O01      180.00     43.93200            2
+#define    WUL_Improper_C16_C1_N1_H03      180.00      4.60240            2
+#define    WUL_Improper_C8_N1_C16_O8      180.00     43.93200            2
+#define    WUL_Improper_C13_C6_N4_H34      180.00      4.60240            2
+#define    WUL_Improper_C5_N4_C13_O5      180.00     43.93200            2
+#define    WUL_Improper_C4_O4_C12_OA      180.00     43.93200            2
+#define    WUL_Improper_CN_C4_N3_H04      180.00      4.60240            2
+#define    WUL_Improper_CM_N3_CN_ON      180.00     43.93200            2
+#define    WUL_Improper_C03_C3_C11_H13      180.00      4.60240            2
+#define    WUL_Improper_C11_C19_C03_H20      180.00      4.60240            2
+#define    WUL_Improper_C27_CE1_C30_H24      180.00      4.60240            2
+#define    WUL_Improper_C27_CE2_C32_H27      180.00      4.60240            2
+#define    WUL_Improper_C30_CZ_CE1_H28      180.00      4.60240            2
+#define    WUL_Improper_C30_C32_C27_C20      180.00      4.60240            2
+#define    WUL_Improper_CE1_CE2_CZ_H30      180.00      4.60240            2
+#define    WUL_Improper_CZ_C32_CE2_H29      180.00      4.60240            2
